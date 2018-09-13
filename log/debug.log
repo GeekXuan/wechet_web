@@ -1,0 +1,1139 @@
+2018-08-06 18:30:40,805 -- INFO -- Fetching access token
+2018-08-06 18:30:40,808 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-06 18:30:41,177 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-06 18:30:41,180 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-06 18:30:41,435 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=26&str1=%E5%8F%AF%E7%88%B1 HTTP/1.1" 200 None
+2018-08-06 18:30:41,440 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-06 18:30:41,628 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_vdjifnV23BJHR090TK69QVRCQqnhqiLzo_09PXJmMMBfq0hzytvgtUt_6JY5vYM9Qq_qEnkj8ZOKwxY0dQFu_rP6fKwM-Wv9qBIEbOI29FYWT9vZRvi_wkCIEJQkav75NHD0z7i6zC4Y2C7VIQPaAIAXFE&type=image HTTP/1.1" 200 118
+2018-08-06 18:30:41,630 -- INFO -- /wx get_pic. words: 可爱 return: {'type': 'image', 'media_id': 'jzaWq01vr3cqPIVuWgkp7y4oODHF2LQiflTWlpPovSscbZKq7BZ77uiPHyXpsaoT', 'created_at': 1533551441}
+2018-08-06 18:31:17,334 -- INFO -- /wx get_pic. words: 我不是药神 data: [[], [('wbsys', '', 'http://m.ashvsash.com/2018/01/16818/?', 'https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g', '密码: ids7')]] return: wbsys  https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g 密码: ids7
+
+2018-08-06 18:31:46,045 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-06 18:31:46,326 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-06 18:35:39,505 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-06 18:35:39,570 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-06 18:35:39,571 -- ERROR -- local variable 'words' referenced before assignment
+2018-08-06 18:36:40,088 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-06 18:36:40,452 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-06 18:36:40,453 -- INFO -- /wx turing. words: 你是 response: 聪明又可爱的N就是我了。
+2018-08-06 18:37:07,471 -- INFO -- /wx access without data
+2018-08-06 18:37:10,243 -- INFO -- /wx access without data
+2018-08-06 18:47:04,300 -- WARNING -- /wx wrong: 'signature'
+2018-08-06 18:47:37,445 -- WARNING -- /wx wrong: 'signature'
+2018-08-06 22:22:09,723 -- INFO -- Fetching access token
+2018-08-06 22:22:09,725 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-06 22:22:09,957 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-06 22:22:09,960 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-06 22:22:10,317 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=62&str1=%E5%A4%A7%E5%A3%AE%E6%98%AF%E5%82%BB%E9%80%BC HTTP/1.1" 200 None
+2018-08-06 22:22:10,320 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-06 22:22:10,555 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_ZgNX90o51ALAGn_DCX5BKWaOY1FoRNUduQZ1I-Vxq78LnNi31yj4G4xe4olKbPogjxDpaACLdcQuHomVK5mFWS-T2BtQOVoK4JhCSNI-kHxj1xxyl8yV1pDH7Ed2QTA-A0CLoJPB6n0dBKm-UHMhADAJWB&type=image HTTP/1.1" 200 118
+2018-08-06 22:22:10,557 -- INFO -- /wx get_pic. words: 大壮是傻逼 return: {'type': 'image', 'media_id': 'wS9VgpjXfXuwNcYcF8f9T8pC-aDkB7Sx0h0x2BH9LQqTGQVA0BjRMUhAu9eNU16A', 'created_at': 1533565330}
+2018-08-06 22:22:21,488 -- INFO -- Fetching access token
+2018-08-06 22:22:21,853 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-06 22:22:21,855 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-06 22:22:22,130 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=31&str1=%E5%A4%A7%E5%A3%AE%E6%98%AF%E5%82%BB%E9%80%BC HTTP/1.1" 200 None
+2018-08-06 22:22:22,133 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-06 22:22:22,374 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_XLcdJ9bOAgEb79PiCX5BKWaOY1FoRNUduQZ1I-Vxq78LnNi31yj4G4xe4ok0k_pN7xoKtI3dEJxodWmgiluzn6plMGdJ46ZtRqtqtsIuxOoB52DM9YDYh9aLBdUayVRWQhHeKETH7esqoOHBJTJhADASCS&type=image HTTP/1.1" 200 118
+2018-08-06 22:22:22,376 -- INFO -- /wx get_pic. words: 大壮是傻逼 return: {'type': 'image', 'media_id': 'S2wJpMMJtJb6fJ6hZFUyYFR5MeGnvogOXm5A9sS1Tc9My6x5RVDjXzlwMTXynf3C', 'created_at': 1533565342}
+2018-08-06 22:22:37,810 -- INFO -- /wx get_pic. words: 古墓丽影 data: [[('古墓丽影1-2  Lara Croft Tomb Raider 1-2', '第一部', 'http://m.ashvsash.com/2016/01/1540/?', 'http://pan.baidu.com/s/1nu8givv', '密码: f568'), ('古墓丽影1-2  Lara Croft Tomb Raider 1-2', '第二部', 'http://m.ashvsash.com/2016/01/1540/?', 'http://pan.baidu.com/s/1miMB8EG', '密码: b351')], []] return: 古墓丽影1-2  Lara Croft Tomb Raider 1-2 第一部 http://pan.baidu.com/s/1nu8givv 密码: f568
+古墓丽影1-2  Lara Croft Tomb Raider 1-2 第二部 http://pan.baidu.com/s/1miMB8EG 密码: b351
+
+2018-08-06 22:23:01,351 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:06,418 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:09,495 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.html HTTP/1.1" 200 None
+2018-08-06 22:23:10,021 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:11,481 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:11,773 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.html HTTP/1.1" 200 None
+2018-08-06 22:23:11,787 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:13,061 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-13077.html HTTP/1.1" 200 None
+2018-08-06 22:23:13,097 -- INFO -- /wx see_pic. words: 古墓丽影 data: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html return: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html
+2018-08-06 22:23:14,308 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.html HTTP/1.1" 200 None
+2018-08-06 22:23:15,735 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-06 22:23:17,013 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-13077.html HTTP/1.1" 200 None
+2018-08-06 22:23:18,468 -- INFO -- /wx see_pic. words: 古墓丽影 data: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html return: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html
+2018-08-06 22:24:54,315 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-13077.html HTTP/1.1" 200 None
+2018-08-06 22:24:54,621 -- INFO -- /wx see_pic. words: 古墓丽影 data: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html return: 古墓丽影1
+备注：BD1280高清中英双字版
+类型：动作片
+主演：西蒙·韦斯特 安吉丽娜·朱莉 强·沃特 伊恩·格雷 诺亚·泰勒 丹尼尔·克雷格 
+地区/年代：美国/2001
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-2-num-1.html
+备用源：
+BD1280高清中英双字版：http://xlyy100.com/?m=vod-play-id-13077-src-3-num-1.html
+2018-08-07 17:53:42,696 -- INFO -- /wx access without data
+2018-08-07 18:25:21,772 -- INFO -- Fetching access token
+2018-08-07 18:25:21,775 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-07 18:25:22,008 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-07 18:25:22,011 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-07 18:25:22,257 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=81&str1=%E6%B2%A1%E6%9C%89%EF%BC%8C%E5%BF%AB%E6%BB%9A HTTP/1.1" 200 None
+2018-08-07 18:25:22,260 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-07 18:25:22,525 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_vOWNjJRJLbrDmWGYXpvvUmDJFq6NjBljQnINE1Yp4dgSOud7koPBCcgKC4j_LqOu24JzEeZZOyoznwhWUfeDBzWLb8z9GkGmj1sUyEoo17H1Sz1_TnRQh9DYxtfrRYJ9V1nsvkjhPJQmV8WDNASbADAUHZ&type=image HTTP/1.1" 200 118
+2018-08-07 18:25:22,527 -- INFO -- /wx get_pic. words: 没有，快滚 return: {'type': 'image', 'media_id': '2ajWIZx_XiP6MvFw_SrFf11llWa3-mED6_HwwQNb_0NibOBiHrxhWo1MF5SsqCKD', 'created_at': 1533637522}
+2018-08-07 18:25:56,414 -- INFO -- Fetching access token
+2018-08-07 18:25:56,415 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-07 18:25:56,589 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-07 18:25:56,591 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-07 18:25:58,681 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=63&str1=%E6%B2%A1%E6%9C%89%EF%BC%8C%E5%87%AF%E5%A5%87%E5%BF%AB%E6%BB%9A HTTP/1.1" 200 None
+2018-08-07 18:25:58,684 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-07 18:25:58,948 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_sQ5SSqU7bnjlTi2xQjWBk_gYctAsLBMglpOuD7w7ZyjRadWfG8_vnBxCcU7elDwvU787_NtJoJ6p1SZD609OJ0CAs6FlXrQ7Qx_d-EDe353qZdOs_clC3YyB5YOYA-uR0RJBzO4LVlNibOm5BMSaAGAJUA&type=image HTTP/1.1" 200 118
+2018-08-07 18:25:58,950 -- INFO -- /wx get_pic. words: 没有，凯奇快滚 return: {'type': 'image', 'media_id': 'OS7gbq1LkVp3TcD8pFmcL9gbp6xW5uwL-roaGNHa7rBOxIq2e5q_Y0wiLSMt9j1h', 'created_at': 1533637558}
+2018-08-07 18:26:08,275 -- INFO -- Fetching access token
+2018-08-07 18:26:08,350 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-07 18:26:08,352 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-07 18:26:11,997 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=84&str1=%E6%B2%A1%E6%9C%89%EF%BC%8C%E5%87%AF%E5%A5%87%E5%BF%AB%E6%BB%9A HTTP/1.1" 200 None
+2018-08-07 18:26:12,064 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-07 18:26:12,445 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_fbNuOd-usaRUyKJBQjWBk_gYctAsLBMglpOuD7w7ZyjRadWfG8_vnBxCcU6QunXQH0FC_QvAdLjH3DrcrR7ZorFOKZbFgEKzx2U1h2bW2Mlq7kl3qzT0gBDqb2wdePzL9-qc66tVeHc663lSUAPaAGADJY&type=image HTTP/1.1" 200 118
+2018-08-07 18:26:12,447 -- INFO -- /wx get_pic. words: 没有，凯奇快滚 return: {'type': 'image', 'media_id': '0zOG_eT1ccEWL6p9QJWElo2eoagPXeelf8_Ffwa88-FRaOuvziATT1JhPiv89WQI', 'created_at': 1533637572}
+2018-08-08 12:29:31,686 -- INFO -- /wx get_pic. words: 我不是药神 data: [[], [('wbsys', '', 'http://m.ashvsash.com/2018/01/16818/?', 'https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g', '密码: ids7')]] return: wbsys  https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g 密码: ids7
+
+2018-08-08 12:30:26,613 -- INFO -- /wx get_pic. words: 一场好戏 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-08 12:30:36,650 -- INFO -- /wx get_pic. words: 一出好戏 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-08 12:31:00,052 -- INFO -- /wx get_pic. words: 爱情公寓 data: [[('爱情公寓 Orangelove (2007)', '', 'http://m.ashvsash.com/2016/03/13814/?', 'https://pan.baidu.com/s/1jHGTFKy', '密码: mb58')], []] return: 爱情公寓 Orangelove (2007)  https://pan.baidu.com/s/1jHGTFKy 密码: mb58
+
+2018-08-08 12:31:24,376 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-08 12:31:26,311 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93.html HTTP/1.1" 200 None
+2018-08-08 12:31:26,455 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-08 12:31:27,296 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-11797.html HTTP/1.1" 200 None
+2018-08-08 12:31:29,364 -- INFO -- /wx see_pic. words: 爱情公寓 data: 爱情公寓4
+备注：24集全
+类型：国产剧
+主演：娄艺潇,陈赫,李金铭,孙艺洲
+地区/年代：大陆/2014
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-24.html
+备用源：
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-24.html return: 爱情公寓4
+备注：24集全
+类型：国产剧
+主演：娄艺潇,陈赫,李金铭,孙艺洲
+地区/年代：大陆/2014
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-24.html
+备用源：
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-24.html
+2018-08-08 12:31:29,417 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-08 12:31:30,762 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93.html HTTP/1.1" 200 None
+2018-08-08 12:31:30,905 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-08 12:31:31,221 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-11797.html HTTP/1.1" 200 None
+2018-08-08 12:31:31,811 -- INFO -- /wx see_pic. words: 爱情公寓 data: 爱情公寓4
+备注：24集全
+类型：国产剧
+主演：娄艺潇,陈赫,李金铭,孙艺洲
+地区/年代：大陆/2014
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-24.html
+备用源：
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-24.html return: 爱情公寓4
+备注：24集全
+类型：国产剧
+主演：娄艺潇,陈赫,李金铭,孙艺洲
+地区/年代：大陆/2014
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-2-num-24.html
+备用源：
+第15集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-15.html
+第16集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-16.html
+第17集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-17.html
+第18集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-18.html
+第19集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-19.html
+第20集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-20.html
+第21集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-21.html
+第22集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-22.html
+第23集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-23.html
+第24集：http://xlyy100.com/?m=vod-play-id-11797-src-3-num-24.html
+2018-08-11 00:09:45,160 -- INFO -- /wx get_pic. words: 爱情公寓 data: [[('爱情公寓 Orangelove (2007)', '', 'http://m.ashvsash.com/2016/03/13814/?', 'https://pan.baidu.com/s/1jHGTFKy', '密码: mb58')], []] return: 爱情公寓 Orangelove (2007)  https://pan.baidu.com/s/1jHGTFKy 密码: mb58
+
+2018-08-11 00:09:52,687 -- INFO -- /wx get_pic. words: 一出好戏 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-11 00:12:59,443 -- INFO -- /wx get_pic. words: 西红市首富 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-12 19:04:59,651 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-12 19:04:59,957 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-12 19:04:59,958 -- INFO -- /wx turing. words: 我不是药神 response: 能起死回生吗？
+2018-08-12 19:07:03,435 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-12 19:07:03,820 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-12 19:07:03,821 -- INFO -- /wx turing. words: “在线:”我不是药神 response: 能起死回生吗？
+2018-08-12 19:07:25,421 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-12 19:07:26,919 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E6%88%91%E4%B8%8D%E6%98%AF%E8%8D%AF%E7%A5%9E.html HTTP/1.1" 200 None
+2018-08-12 19:07:27,806 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-12 19:07:28,079 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20320.html HTTP/1.1" 200 None
+2018-08-12 19:07:28,162 -- INFO -- /wx see_pic. words: 我不是药神 data: 我不是药神纪录片
+备注：HD1280高清国语中字版
+类型：剧情片
+主演：徐峥,王传君,周一围,谭卓
+地区/年代：大陆/2018
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-1-num-1.html
+备用源：
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-2-num-1.html return: 我不是药神纪录片
+备注：HD1280高清国语中字版
+类型：剧情片
+主演：徐峥,王传君,周一围,谭卓
+地区/年代：大陆/2018
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-1-num-1.html
+备用源：
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-2-num-1.html
+2018-08-12 19:17:50,212 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-12 19:17:52,237 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E6%88%91%E4%B8%8D%E6%98%AF%E8%8D%AF%E7%A5%9E.html HTTP/1.1" 200 None
+2018-08-12 19:17:52,250 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-12 19:17:53,890 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20320.html HTTP/1.1" 200 None
+2018-08-12 19:17:54,045 -- INFO -- /wx see_pic. words: 我不是药神 data: 我不是药神纪录片
+备注：HD1280高清国语中字版
+类型：剧情片
+主演：徐峥,王传君,周一围,谭卓
+地区/年代：大陆/2018
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-1-num-1.html
+备用源：
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-2-num-1.html return: 我不是药神纪录片
+备注：HD1280高清国语中字版
+类型：剧情片
+主演：徐峥,王传君,周一围,谭卓
+地区/年代：大陆/2018
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-1-num-1.html
+备用源：
+HD1280高清国语中字版：http://xlyy100.com/?m=vod-play-id-20320-src-2-num-1.html
+2018-08-13 11:10:22,899 -- INFO -- Fetching access token
+2018-08-13 11:10:22,901 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-13 11:10:23,223 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-13 11:10:23,225 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-13 11:10:23,865 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=19&str1=%E8%BE%BE%E6%88%90%E5%85%B1%E8%AF%86 HTTP/1.1" 200 None
+2018-08-13 11:10:23,868 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-13 11:10:24,126 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_NNn6yMzbU--jz_-tZlpOEMmOmIRYFb2F5AUEcu2RLiZ-F8QD0nCe4vGc95ZrzDtByOEhz-h-T4q_EJVsOLYgbeVIAZKPlxZ6Q5htvoKOjZ9SVUZhkls-QwGk69kLb_I4i7jaKU-yiGTxYtkQBGDcAGAOTQ&type=image HTTP/1.1" 200 118
+2018-08-13 11:10:24,128 -- INFO -- /wx get_pic. words: 达成共识 return: {'type': 'image', 'media_id': 'ShPB3jHT-6bN780B-Sgtui7HNDBrbRYgOhxr_Ylgnv6ci1tbzdwVIrgP-B9B_YkW', 'created_at': 1534129824}
+2018-08-14 11:47:02,878 -- INFO -- /wx access without data
+2018-08-14 12:00:52,456 -- INFO -- /wxdata: <Storage {'signature': 'dacc08150067278f921ce703b7341e0d3866bda1', 'echostr': '1070263972016675829', 'nonce': '1351816229', 'timestamp': '1534219252'}> get: 1351816229 return: 1070263972016675829
+2018-08-14 12:03:36,992 -- INFO -- /wx access without data
+2018-08-14 12:05:22,137 -- INFO -- /wxdata: <Storage {'signature': 'c6d593f7bc756485619a273c44c68604e59532f7', 'echostr': '7442741132199654719', 'nonce': '1792534183', 'timestamp': '1534219522'}> get: 1792534183 return: 7442741132199654719
+2018-08-14 12:10:09,608 -- INFO -- /wx access without data
+2018-08-14 12:17:58,908 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 12:17:59,131 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 12:17:59,132 -- INFO -- /wx turing. words: 你好 response: 啦啦啦，每天都是好心情
+2018-08-14 12:20:40,752 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 12:20:41,106 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 12:20:41,106 -- INFO -- /wx turing. words: 你是 response: 耀耀猜猜看吧。
+2018-08-14 12:20:51,801 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 12:20:52,076 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 12:20:52,077 -- INFO -- /wx turing. words: halo response: 晕
+2018-08-14 12:21:44,753 -- ERROR -- local variable 'reply' referenced before assignment
+2018-08-14 12:23:09,847 -- ERROR -- local variable 'reply' referenced before assignment
+2018-08-14 12:24:24,077 -- ERROR -- 'UnsubscribeEvent' object has no attribute 'content'
+2018-08-14 12:24:43,465 -- ERROR -- 'SubscribeEvent' object has no attribute 'content'
+2018-08-14 12:25:11,805 -- ERROR -- 'UnsubscribeEvent' object has no attribute 'content'
+2018-08-14 12:25:23,362 -- ERROR -- 'SubscribeEvent' object has no attribute 'content'
+2018-08-14 12:27:44,020 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 12:27:44,529 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 12:27:44,530 -- INFO -- /wx turing. words: halo response: 晕
+2018-08-14 12:34:47,533 -- INFO -- Fetching access token
+2018-08-14 12:34:47,536 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-14 12:34:47,862 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-14 12:34:47,865 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-14 12:34:49,009 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=58&str1=%E8%BE%BE%E6%88%90%E5%85%B1%E8%AF%86 HTTP/1.1" 200 None
+2018-08-14 12:34:49,012 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-14 12:34:49,251 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_IB2vXz_zuUF5YnB-MMxF9tBt-kgSfYNq2ZNpcns90OVc6OG293ry873H4WBZwG0wwl774mRXY8t5J9yVdB0mJuxF7354tCQBtVHztal0I4Pf6f2yBBeckAs_ThfKv5lWIRdTfhurknlzCj2kCHLhAHALQU&type=image HTTP/1.1" 200 118
+2018-08-14 12:34:49,253 -- INFO -- /wx get_pic. words: 达成共识 return: {'type': 'image', 'media_id': 'rtjGPlliAzS2gGTFuqv-wCCUDqL4x4fYTpHxqKUgHsLkM5A-WZB4oLgD-kzxxWxD', 'created_at': 1534221289}
+2018-08-14 12:52:42,572 -- INFO -- Fetching access token
+2018-08-14 12:52:42,573 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-14 12:52:43,045 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-14 12:52:43,047 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-14 12:52:43,295 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=25&str1=%E7%89%9B%E9%80%BC%E7%89%9B%E9%80%BC HTTP/1.1" 200 None
+2018-08-14 12:52:43,299 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-14 12:52:43,557 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_ldpQOfWYJBRYwr77Fa60xXrMDPLOMuquB45_7BcU6qJeARKeVzXpX6ngzYDOHxcoujOBLKosLrneC0J4fyIidxeRMlaGCk1UHRVkORRL-PZutfhjO3ZgQ7ZvAAWZvim0dvhCGzLKPrxIBtwLBSPbAHAFWT&type=image HTTP/1.1" 200 118
+2018-08-14 12:52:43,559 -- INFO -- /wx get_pic. words: 牛逼牛逼 return: {'type': 'image', 'media_id': 'QRoTIMOcsbLA99-m3BD7d1tByltID3xUITrniknTsoujdN4zE3W0xAvKUsmURTKH', 'created_at': 1534222363}
+2018-08-14 14:42:20,817 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:21,026 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:21,027 -- INFO -- /wx turing. words: 今天的天气 response: 请问你想查询哪个城市
+2018-08-14 14:42:25,209 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:25,405 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:25,406 -- INFO -- /wx turing. words: 北京 response: 北京:周二 08月14日,小雨 东北风微风,最低气温24度，最高气温29度
+2018-08-14 14:42:40,201 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:40,296 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:40,297 -- INFO -- /wx turing. words: 北京 response: 北京:周二 08月14日,小雨 东北风微风,最低气温24度，最高气温29度
+2018-08-14 14:42:42,573 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:42,714 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:42,715 -- INFO -- /wx turing. words: 合肥 response: 合肥:周二 08月14日,多云 东南风微风,最低气温27度，最高气温34度
+2018-08-14 14:42:49,392 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:49,598 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:49,598 -- INFO -- /wx turing. words: 你好 response: 你好啊，真是有礼貌的好宝宝
+2018-08-14 14:42:53,997 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:42:54,321 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:42:54,322 -- INFO -- /wx turing. words: 北京 response: 北京市，简称”京“，是中华人民共和国首都、直辖市和京津冀城市群的中心，中国的政治、文化、交通、科技创新和国际交往中心，中国经济、金融的决策和管理中心。
+2018-08-14 14:44:11,245 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:44:11,673 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:44:11,673 -- INFO -- /wx turing. words: 孙锴祺 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-14 14:44:22,718 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:44:23,242 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:44:23,243 -- INFO -- /wx turing. words: 孙凯骑 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-14 14:44:28,508 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 14:44:28,851 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 14:44:28,852 -- INFO -- /wx turing. words: 孙锴祺 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-14 16:52:34,645 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-14 16:52:35,149 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-14 16:52:35,150 -- INFO -- /wx turing. words: 孙凯琪 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-14 16:53:21,049 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-14 16:53:22,396 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93.html HTTP/1.1" 200 None
+2018-08-14 16:53:22,425 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-14 16:53:22,704 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-2770.html HTTP/1.1" 200 None
+2018-08-14 16:53:22,750 -- INFO -- /wx see_pic. words: 爱情公寓 data: 
+爱情公寓
+
+
+备注：TC清晰版
+
+
+类型：爱情片
+
+
+主演：陈赫,娄艺潇,邓家佳,孙艺洲
+
+
+地区/年代：大陆/2018
+
+TC清晰版：http://xlyy100.com/?m=vod-play-id-2770-src-4-num-1.html
+备用源：
+TC清晰版：http://xlyy100.com/?m=vod-play-id-2770-src-5-num-1.html return: 
+爱情公寓
+
+
+备注：TC清晰版
+
+
+类型：爱情片
+
+
+主演：陈赫,娄艺潇,邓家佳,孙艺洲
+
+
+地区/年代：大陆/2018
+
+TC清晰版：http://xlyy100.com/?m=vod-play-id-2770-src-4-num-1.html
+备用源：
+TC清晰版：http://xlyy100.com/?m=vod-play-id-2770-src-5-num-1.html
+2018-08-14 16:53:28,023 -- INFO -- /wx get_pic. words: 爱情公寓 data: [[('爱情公寓 Orangelove (2007)', '', 'http://m.ashvsash.com/2016/03/13814/?', 'https://pan.baidu.com/s/1jHGTFKy', '密码: mb58')], []] return: 爱情公寓 Orangelove (2007)  https://pan.baidu.com/s/1jHGTFKy 密码: mb58
+
+2018-08-15 19:38:05,563 -- INFO -- Fetching access token
+2018-08-15 19:38:05,564 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-15 19:38:05,840 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-15 19:38:05,842 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-15 19:38:10,569 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=4&str1=%E8%80%81%E8%A1%A8 HTTP/1.1" 200 None
+2018-08-15 19:38:10,666 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-15 19:38:10,775 -- INFO -- Fetching access token
+2018-08-15 19:38:10,875 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-15 19:38:10,877 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-15 19:38:11,020 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_3UiBrHf0oeaJvMeiem7B9rPWSmwAhddsUHTp_aKVBVMJgCAvpUZSOWDAG3iQfxfG8wHT7JGdpM7YW4mdoGS-BMVoV2Gde1YgB1ciu6cbFa8i6punTooTOcCMOxhdruI3nIgVo_j81-jTchk8BDBgAGAKMK&type=image HTTP/1.1" 200 118
+2018-08-15 19:38:11,022 -- INFO -- /wx get_pic. words: 老表 return: {'type': 'image', 'media_id': '10tfHLsfmNA5_fsyvqeFzKgJCxusczFo1c6Z_YlZQew6_oFjO-NlcrsfC26dwO8_', 'created_at': 1534333090}
+2018-08-15 19:38:11,548 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=19&str1=%E8%80%81%E8%A1%A8 HTTP/1.1" 200 None
+2018-08-15 19:38:11,551 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-15 19:38:11,825 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=12_LuCofTS9oEHz56vyem7B9rPWSmwAhddsUHTp_aKVBVMJgCAvpUZSOWDAG3hCwQGe65_z2YbfuF8T0b38CfyxukrSfTLLvyutUrNmKJVTdh_6eFAn9uGc3S3T-xElXbSYyUv-aYw7rTrUqMBUAKGgAGAVFB&type=image HTTP/1.1" 200 118
+2018-08-15 19:38:11,827 -- INFO -- /wx get_pic. words: 老表 return: {'type': 'image', 'media_id': 'm3Dklj9BTc7kndLRnBCsbpNYwPSmcJGDtFirjilugxpedcNdObH2Hi3bGE0BghLN', 'created_at': 1534333091}
+2018-08-16 19:22:52,965 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-16 19:22:53,228 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-16 19:22:53,228 -- INFO -- /wx turing. words: 爱情公寓 response: 我看过最好的剧了
+2018-08-16 19:23:26,510 -- INFO -- /wx get_pic. words: 爱情公寓 data: [[('爱情公寓 Orangelove (2007)', '', 'http://m.ashvsash.com/2016/03/13814/?', 'https://pan.baidu.com/s/1jHGTFKy', '密码: mb58')], []] return: 爱情公寓 Orangelove (2007)  https://pan.baidu.com/s/1jHGTFKy 密码: mb58
+
+2018-08-18 13:20:44,565 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-18 13:20:44,836 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-18 13:20:44,837 -- INFO -- /wx turing. words: 延禧攻略 response: 你先说吧
+2018-08-18 13:20:54,886 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-18 13:20:55,269 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-18 13:20:55,270 -- INFO -- /wx turing. words: 电视剧:延禧攻略 response: 你会等电视剧更新完再看吗？
+2018-08-18 13:21:05,129 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-18 13:21:05,510 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-18 13:21:05,510 -- INFO -- /wx turing. words: 电影:延禧攻略 response: 观看电影记得来一杯咖啡嘛！
+2018-08-18 13:21:16,071 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-18 13:21:16,585 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%BB%B6%E7%A6%A7%E6%94%BB%E7%95%A5.html HTTP/1.1" 200 None
+2018-08-18 13:21:16,599 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-18 13:21:16,906 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20847.html HTTP/1.1" 200 None
+2018-08-18 13:21:16,938 -- INFO -- /wx see_pic. words: 延禧攻略 data: 延禧攻略粤语
+备注：更新到12集
+类型：国产剧
+主演：秦岚,聂远,佘诗曼,吴谨言
+地区/年代：大陆/2018
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-12.html
+备用源：
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-12.html return: 延禧攻略粤语
+备注：更新到12集
+类型：国产剧
+主演：秦岚,聂远,佘诗曼,吴谨言
+地区/年代：大陆/2018
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-12.html
+备用源：
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-12.html
+2018-08-18 13:21:32,860 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-18 13:21:33,320 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%BB%B6%E7%A6%A7%E6%94%BB%E7%95%A5%E5%9B%BD%E8%AF%AD.html HTTP/1.1" 200 None
+2018-08-18 13:21:33,330 -- INFO -- /wx see_pic. words: 延禧攻略国语 data: None return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请试试英文名哦
+2018-08-18 13:21:57,462 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-18 13:21:57,732 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E5%BB%B6%E7%A6%A7%E6%94%BB%E7%95%A5.html HTTP/1.1" 200 None
+2018-08-18 13:21:57,747 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-18 13:21:58,053 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20847.html HTTP/1.1" 200 None
+2018-08-18 13:21:58,149 -- INFO -- /wx see_pic. words: 延禧攻略 data: 延禧攻略粤语
+备注：更新到12集
+类型：国产剧
+主演：秦岚,聂远,佘诗曼,吴谨言
+地区/年代：大陆/2018
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-12.html
+备用源：
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-12.html return: 延禧攻略粤语
+备注：更新到12集
+类型：国产剧
+主演：秦岚,聂远,佘诗曼,吴谨言
+地区/年代：大陆/2018
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-1-num-12.html
+备用源：
+第03集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-3.html
+第04集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-4.html
+第05集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-5.html
+第06集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-6.html
+第07集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-7.html
+第08集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-8.html
+第09集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-9.html
+第10集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-10.html
+第11集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-11.html
+第12集：http://xlyy100.com/?m=vod-play-id-20847-src-2-num-12.html
+2018-08-21 23:11:07,026 -- INFO -- /wx get_pic. words: 我不是药神 data: [[], [('wbsys', '', 'http://m.ashvsash.com/2018/01/16818/?', 'https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g', '密码: ids7')]] return: wbsys  https://pan.baidu.com/s/1iQTn13hOFcOKtjQeX5t_-g 密码: ids7
+
+2018-08-23 12:00:36,567 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-23 12:00:36,930 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-23 12:00:36,931 -- INFO -- /wx turing. words: 老友记 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-23 12:00:51,328 -- INFO -- /wx get_pic. words: 老友记 data: [[('一屋老友记 (2016)', '', 'http://m.ashvsash.com/2016/06/12273/?', 'http://pan.baidu.com/s/1hsPmhQc', '密码：5h54'), ('老友记  Friends 1-10季 全集', '第一季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1mie6js0', '密码: nk1c'), ('老友记  Friends 1-10季 全集', '第二季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1i5t5sfN', '密码: cyaq'), ('老友记  Friends 1-10季 全集', '第三季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1o8i5Mm2', '密码: jjm4'), ('老友记  Friends 1-10季 全集', '第四季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1hsHTUtQ', '密码: q3jn'), ('老友记  Friends 1-10季 全集', '第五季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1i5sPtQ1', '密码: 8dft'), ('老友记  Friends 1-10季 全集', '第六季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1i53EEUx', '密码: 21py'), ('老友记  Friends 1-10季 全集', '第七季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1jIsNwwQ', '密码: j216'), ('老友记  Friends 1-10季 全集', '第八季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1c222XW0', '密码: 4a5r'), ('老友记  Friends 1-10季 全集', '第九季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1kVLl7qJ', '密码: qh7s'), ('老友记  Friends 1-10季 全集', '第十季链接', 'http://m.ashvsash.com/2016/01/8895/?', 'http://pan.baidu.com/s/1bZ0Nbo', '密码: qcby')], []] return: 一屋老友记 (2016)  http://pan.baidu.com/s/1hsPmhQc 密码：5h54
+老友记  Friends 1-10季 全集 第一季链接 http://pan.baidu.com/s/1mie6js0 密码: nk1c
+老友记  Friends 1-10季 全集 第二季链接 http://pan.baidu.com/s/1i5t5sfN 密码: cyaq
+老友记  Friends 1-10季 全集 第三季链接 http://pan.baidu.com/s/1o8i5Mm2 密码: jjm4
+老友记  Friends 1-10季 全集 第四季链接 http://pan.baidu.com/s/1hsHTUtQ 密码: q3jn
+老友记  Friends 1-10季 全集 第五季链接 http://pan.baidu.com/s/1i5sPtQ1 密码: 8dft
+老友记  Friends 1-10季 全集 第六季链接 http://pan.baidu.com/s/1i53EEUx 密码: 21py
+老友记  Friends 1-10季 全集 第七季链接 http://pan.baidu.com/s/1jIsNwwQ 密码: j216
+老友记  Friends 1-10季 全集 第八季链接 http://pan.baidu.com/s/1c222XW0 密码: 4a5r
+老友记  Friends 1-10季 全集 第九季链接 http://pan.baidu.com/s/1kVLl7qJ 密码: qh7s
+
+2018-08-23 13:41:32,652 -- INFO -- /wx get_pic. words: 老友记第一季 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-23 23:48:52,330 -- INFO -- /wx get_movie. words: 延禧攻略 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-23 23:49:00,869 -- INFO -- /wx get_movie. words: yxgl data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-27 13:41:09,417 -- INFO -- /wx get_movie. words: 蚁人 data: [[('蚁人 Ant-Man (2015)', '', 'http://m.ashvsash.com/2016/01/3202/?', 'http://pan.baidu.com/s/1sjMNHSh', '')], [('囚禁 Insyriated (2017)', '', 'http://m.ashvsash.com/2018/05/16535/?', 'https://pan.baidu.com/s/17-jXblPTJfHuDQwnbNP9gg', '密码: qdhg'), ('殉道者杀手 Let Me Make You a Martyr (2015)', '', 'http://m.ashvsash.com/2017/06/14867/?', 'http://pan.baidu.com/s/1o7IV3kQ', '密码: jim6'), ('K歌情人 Music and Lyrics (2007)', '', 'http://m.ashvsash.com/2017/04/14549/?', 'http://pan.baidu.com/s/1jI5JYUa', '密码: 6paj'), ('安德烈：黑色的迷宫 Andròn: The Black Labyrinth (2016)', '', 'http://m.ashvsash.com/2016/06/12130/?', 'http://pan.baidu.com/s/1hsHbQtu', '密码：60n8'), ('YYRPNDPLL', '', 'http://m.ashvsash.com/2016/03/14244/?', 'http://pan.baidu.com/s/1kVBOxV5', '密码: k8eb'), ('缄默的迷宫 Im Labyrinth des Schweigens (2014)', '', 'http://m.ashvsash.com/2016/01/9645/?', 'http://pan.baidu.com/s/1qXe7FWg', ''), ('殉难者 Martyrs (2008)', '', 'http://m.ashvsash.com/2016/01/7598/?', 'http://pan.baidu.com/s/1dFqMTGX', '密码：8uxv'), ('暴君  Tyrant Season 1-3季', '第一季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'http://pan.baidu.com/s/1c1G2z7M', '密码: 4ti2'), ('暴君  Tyrant Season 1-3季', '第二季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'https://pan.baidu.com/s/1sl7bWux', '密码:85c2'), ('暴君  Tyrant Season 1-3季', '第三季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'https://pan.baidu.com/s/1kVwyTc7', '密码: 4ez9'), ('简爱 Jane Eyre (2011)', '', 'http://m.ashvsash.com/2016/01/2566/?', 'http://pan.baidu.com/s/1mi1bgTU', '密码: t6qj'), ('僵尸来袭 Wyrmwood: Road of the Dead (2015)', '', 'http://m.ashvsash.com/2016/01/1256/?', 'http://pan.baidu.com/s/1dEzwOLF', ''), ('夺命金字塔 The Pyramid (2014)', '', 'http://m.ashvsash.com/2016/01/962/?', 'http://pan.baidu.com/s/1boX24bX', '密码: s13v')]] return: 蚁人 Ant-Man (2015)  http://pan.baidu.com/s/1sjMNHSh 
+
+2018-08-27 13:41:22,540 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-27 13:41:24,237 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E8%9A%81%E4%BA%BA.html HTTP/1.1" 200 None
+2018-08-27 13:41:24,252 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-27 13:41:24,610 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20319.html HTTP/1.1" 200 None
+2018-08-27 13:41:24,642 -- INFO -- /wx see_movie. words: 蚁人 data: 蚁人2：黄蜂女现身
+备注：TC中英双字版丨Ts清晰中字
+类型：动作片
+主演：保罗·路德,伊万杰琳·莉莉,迈克尔·道格拉斯,迈克尔·佩纳
+地区/年代：美国/2018
+TC中英双字版：http://xlyy100.com/?m=vod-play-id-20319-src-1-num-1.html
+Ts清晰中字：http://xlyy100.com/?m=vod-play-id-20319-src-1-num-2.html
+备用源：
+TC中英双字版：http://xlyy100.com/?m=vod-play-id-20319-src-2-num-1.html
+Ts清晰中字：http://xlyy100.com/?m=vod-play-id-20319-src-2-num-2.html return: 蚁人2：黄蜂女现身
+备注：TC中英双字版丨Ts清晰中字
+类型：动作片
+主演：保罗·路德,伊万杰琳·莉莉,迈克尔·道格拉斯,迈克尔·佩纳
+地区/年代：美国/2018
+TC中英双字版：http://xlyy100.com/?m=vod-play-id-20319-src-1-num-1.html
+Ts清晰中字：http://xlyy100.com/?m=vod-play-id-20319-src-1-num-2.html
+备用源：
+TC中英双字版：http://xlyy100.com/?m=vod-play-id-20319-src-2-num-1.html
+Ts清晰中字：http://xlyy100.com/?m=vod-play-id-20319-src-2-num-2.html
+2018-08-27 13:42:40,402 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-27 13:42:40,906 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E7%B2%BE%E7%81%B5%E6%97%85%E7%A4%BE.html HTTP/1.1" 200 None
+2018-08-27 13:42:40,922 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-08-27 13:42:41,329 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-21185.html HTTP/1.1" 200 None
+2018-08-27 13:42:41,361 -- INFO -- /wx see_movie. words: 精灵旅社 data: 精灵旅社
+备注：BD1280高清中字版
+类型：动漫
+主演：亚当·桑德勒,安迪·萨姆伯格,赛琳娜·戈麦斯,凯文·詹姆斯
+地区/年代：美国/2012
+BD1280高清中字版：http://xlyy100.com/?m=vod-play-id-21185-src-1-num-1.html
+备用源：
+BD1280高清中字版：http://xlyy100.com/?m=vod-play-id-21185-src-2-num-1.html return: 精灵旅社
+备注：BD1280高清中字版
+类型：动漫
+主演：亚当·桑德勒,安迪·萨姆伯格,赛琳娜·戈麦斯,凯文·詹姆斯
+地区/年代：美国/2012
+BD1280高清中字版：http://xlyy100.com/?m=vod-play-id-21185-src-1-num-1.html
+备用源：
+BD1280高清中字版：http://xlyy100.com/?m=vod-play-id-21185-src-2-num-1.html
+2018-08-27 13:42:50,233 -- INFO -- /wx get_movie. words: 精灵旅社 data: [[('精灵旅社 Hotel Transylvania 1-2', '第二部链接', 'http://m.ashvsash.com/2016/01/1590/?', 'http://pan.baidu.com/s/1eRB5h1C', '密码：ri35'), ('精灵旅社 Hotel Transylvania 1-2', '第一部！', 'http://m.ashvsash.com/2016/01/1590/?', 'http://pan.baidu.com/s/1dEVPUtN', '密码：iubh')], []] return: 精灵旅社 Hotel Transylvania 1-2 第二部链接 http://pan.baidu.com/s/1eRB5h1C 密码：ri35
+精灵旅社 Hotel Transylvania 1-2 第一部！ http://pan.baidu.com/s/1dEVPUtN 密码：iubh
+
+2018-08-27 14:26:53,394 -- INFO -- Fetching access token
+2018-08-27 14:26:53,410 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 14:26:54,191 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 14:26:54,193 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 14:26:55,984 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=21&str1=%E4%BF%9D%E6%89%8D%E5%92%8C%E9%9D%99%E6%80%A1%E5%9C%A8%E4%B8%80%E8%B5%B7 HTTP/1.1" 200 None
+2018-08-27 14:26:55,993 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 14:26:56,254 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_BymqXQGDhbHAdA0mjk29WHF8w0o0nqhqjXfXvvP3nWrUYQValhoSytf6hMSf_xbw5sSTF9795iNrCAvdneZaVzjmA8ZR0OrRD9pqff7zd4UlzNt7vmQOBpMMpLJKeVXDL7Z-ug7F0qy2mzBTLJHdAAAHFD&type=image HTTP/1.1" 200 118
+2018-08-27 14:26:56,256 -- INFO -- /wx get_pic. words: 保才和静怡在一起 return: {'type': 'image', 'media_id': 'hyHxwZ3fKAC-xIZb4REqRArKL97gBGRwkqANQXKYr35Nxj8MZZVT2y_k1xcI13j2', 'created_at': 1535351216}
+2018-08-27 14:53:25,055 -- INFO -- Fetching access token
+2018-08-27 14:53:25,057 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 14:53:25,334 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 14:53:25,337 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 14:53:25,550 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=23&str1=%E4%BF%9D%E6%89%8D%E5%90%8C%E5%AD%A6%E4%BD%A0%E5%9D%90%E4%B8%8B HTTP/1.1" 200 None
+2018-08-27 14:53:25,554 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 14:53:25,872 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_6rtrBB2OdLLp0fPNvno0z2xDChcfX9MeVpFnS3GtLHg8ga5MH4lsX-sIjJtm4qqEE9tnt24tBQMjKCzUY3cphXILQbvXuXjECUW21PiwSP0ou_Kg72dqnwRs3bJLrxcsb07-CbWr8m0BOtR0YEIfACASYC&type=image HTTP/1.1" 200 118
+2018-08-27 14:53:25,874 -- INFO -- /wx get_pic. words: 保才同学你坐下 return: {'type': 'image', 'media_id': 'PGgqWYKgn6TTBm9txA4Z9IYkZxuL6XuTlUok0dmK0abNWWJe6VBQT-gKpPBP0qLe', 'created_at': 1535352805}
+2018-08-27 15:00:35,578 -- INFO -- Fetching access token
+2018-08-27 15:00:35,580 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:00:35,851 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:00:35,853 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:00:36,538 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=89&str1=%E7%94%B7%E4%BA%BA%E4%B8%8D%E8%83%BD%E8%AF%B4%E8%87%AA%E5%B7%B1%E4%B8%8D%E8%A1%8C HTTP/1.1" 200 None
+2018-08-27 15:00:36,541 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:00:36,778 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_OY_7SkaLMw6iLJVcUYEfT7kdm3YEL8C-rqBhKu5geMaFhtW4HyeRjB1G8fmm3faC4BYOlZn8TcItzxTg8JGPHhJqawiAJcEENizo1dwCGRYihCSuQ_NJ8gxozi056K7Uqtp1R83XJBsar1ZnAVFdAIAFAK&type=image HTTP/1.1" 200 118
+2018-08-27 15:00:36,780 -- INFO -- /wx get_pic. words: 男人不能说自己不行 return: {'type': 'image', 'media_id': 'rF99kQMNtAqbgTGdbnUvKP7gVquA31fKDXvhM1535rpLdb2RTYDL0kHTfYV3acNG', 'created_at': 1535353236}
+2018-08-27 15:10:55,086 -- INFO -- Fetching access token
+2018-08-27 15:10:55,088 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:10:55,368 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:10:55,370 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:10:55,764 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=63&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:10:55,767 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:10:56,043 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_J0W0jbKVzSo0qqDmDQWEGqXsT3qdusUuAjObK_AvEgOXEnv3vPVxo77OQujN1vmEVeoiBIYO1QNeJFLO9-nlYkfA1-MFpQ1bcgi0f5dEQEp1suPtDytZnptBS9mwF1v01KCvYjovDJVOVEPHIAKbACAVNX&type=image HTTP/1.1" 200 118
+2018-08-27 15:10:56,045 -- INFO -- /wx get_pic. words: 宇舟你真的很严格 return: {'type': 'image', 'media_id': 'G2YiMgVlLVqT9Iub4R5UFC_U1Wgcb7o7EjvIVv_L-Fs0m6ReGCbx2U0xCrg1Hmyk', 'created_at': 1535353856}
+2018-08-27 15:11:02,949 -- INFO -- Fetching access token
+2018-08-27 15:11:03,062 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:11:03,064 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:11:03,331 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=49&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:11:03,335 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:11:03,602 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_X1DTAFtPCc7hSMZEDQWEGqXsT3qdusUuAjObK_AvEgOXEnv3vPVxo77OQuirwAlsPZLOR59XgB16fXNHQ6T0biTMCe19MiZFmexSoWc6vEfzqw_DK0YEUyWrABoVrCW7jmMB104rLddY1b5SJYEbACANCI&type=image HTTP/1.1" 200 118
+2018-08-27 15:11:03,604 -- INFO -- /wx get_pic. words: 宇舟你真的很严格 return: {'type': 'image', 'media_id': 'lUE9L4oMpTuEWbnEeK3LBFjvCmB_Fj_S_8uT_sn1pnc_F7n092NH6iS2OVtBg0AY', 'created_at': 1535353863}
+2018-08-27 15:11:10,646 -- INFO -- Fetching access token
+2018-08-27 15:11:10,766 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:11:10,768 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:11:10,971 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=44&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:11:10,974 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:11:11,183 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_L7myNQzH_UT64GQ1DQWEGqXsT3qdusUuAjObK_AvEgOXEnv3vPVxo77OQugOmXfEGDeItQF9vW8qEfbMoaxyC5d0U4R8r54kSKgvOUlG-LrMJc6UczJoiBPbneheGa3K8fKSkqOfp_B2gc5aYTUbACAKFG&type=image HTTP/1.1" 200 118
+2018-08-27 15:11:11,185 -- INFO -- /wx get_pic. words: 宇舟你真的很严格 return: {'type': 'image', 'media_id': 'bhI1b-yqVvTszQNeIPMZyN2tt1TsPZDWbs5Uc3SgrD1cCVF0k79WWU97ajZB4x4C', 'created_at': 1535353871}
+2018-08-27 15:11:14,677 -- INFO -- Fetching access token
+2018-08-27 15:11:14,799 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:11:14,802 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:11:15,015 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=27&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:11:15,019 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:11:15,274 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_3Tr4cnVywzvwPtAcDQWEGqXsT3qdusUuAjObK_AvEgOXEnv3vPVxo77OQuhuHw09RX3I1509wUlI9PAUqcA_lxK5xqk3TD7zk2huwN9tA5NHjePwe5hxcig5c-fUoRGetGGgTSbJelFE0miZLDJbACAWOU&type=image HTTP/1.1" 200 118
+2018-08-27 15:11:15,276 -- INFO -- /wx get_pic. words: 宇舟你真的很严格 return: {'type': 'image', 'media_id': 'XojHAOx3YoV7rg4v1cHlh9i7v5omfiM6HX3cc98ooB8W8j2G5hQSVdtu_UL_PsZQ', 'created_at': 1535353875}
+2018-08-27 15:11:17,040 -- INFO -- Fetching access token
+2018-08-27 15:11:17,172 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:11:17,174 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:11:17,630 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=77&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:11:17,634 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:11:17,850 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_DA9qXle6_QvF31I0AFIXR3qSSstBWclPR5q46GjXbU1bG3op5I4KTNwkdidcoyht8mx9fGUIu5ZP-9z0Af3h0a7VS5TKagjiVY0vJnDIgLDVkiQ09QTqJG5t35Ay_EvGXiQgneOZ-hLqrZ1cRPWhACANLS&type=image HTTP/1.1" 200 118
+2018-08-27 15:11:17,851 -- INFO -- /wx get_pic. words: 宇舟你真的很严格 return: {'type': 'image', 'media_id': 'tu9Y5oG7lRarazJ4BacHoW0t7UeP1s8GsWcCUSpKLLcgIlfqH_vIGovbz2wZVfKS', 'created_at': 1535353877}
+2018-08-27 15:15:10,897 -- INFO -- Fetching access token
+2018-08-27 15:15:10,898 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:15:11,283 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:15:11,285 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:15:11,661 -- INFO -- Fetching access token
+2018-08-27 15:15:11,790 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:15:11,792 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:15:12,417 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=45&str1=%E4%BF%9D%E6%89%8D%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-08-27 15:15:12,420 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:15:12,559 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=47&str1=%E6%99%BA%E8%BD%A9%E5%A4%A7%E4%BD%AC%E6%83%B9%E4%B8%8D%E8%B5%B7 HTTP/1.1" 200 None
+2018-08-27 15:15:12,563 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:15:12,661 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_rDHDwk0ZBuEPEN8i-nMKY0yau415vFtM19CkNd3gjcBMI1a_iSIxrj7gRbXkOOUAQF_76WbWX2dwzqox545xWUc70KPDI-Lo5Ij1XMI1r1VLCAeVASiZtQJsDuQJk_d01-xmO6NAke5aVFzYTCQeAGAMVJ&type=image HTTP/1.1" 200 118
+2018-08-27 15:15:12,663 -- INFO -- /wx get_pic. words: 保才你真的很严格 return: {'type': 'image', 'media_id': 'Bv4B7cBAohGukwNlic3fDq9-J2eHqpqFO52a5c9gduS73ay5zaH_fF0v2K6tuUmt', 'created_at': 1535354112}
+2018-08-27 15:15:12,766 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_tCbCRa4ZmG8p2jcr-nMKY0yau415vFtM19CkNd3gjcBMI1a_iSIxrj7gRbVtV62ZyDQMTIUBZvPVdIG7ozFcrrKVD-i52Jy57bQbQR8V6DUUDNCo-t3vXFp10Ao6bn4q1w321Z0H_-1Ax2JAYGBeAGARZU&type=image HTTP/1.1" 200 118
+2018-08-27 15:15:12,768 -- INFO -- /wx get_pic. words: 智轩大佬惹不起 return: {'type': 'image', 'media_id': 'qu8sJetLiFGFy0euxF3jyQEg5ZY3r_k3035Yi5rhbvH_34xewTwrZrTHy4lvdfnn', 'created_at': 1535354112}
+2018-08-27 15:15:25,850 -- INFO -- Fetching access token
+2018-08-27 15:15:25,969 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:15:25,971 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:15:27,069 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=25&str1=%E6%99%BA%E8%BD%A9%E5%A4%A7%E4%BD%AC%E6%83%B9%E4%B8%8D%E8%B5%B7 HTTP/1.1" 200 None
+2018-08-27 15:15:27,072 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:15:27,276 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_FKYr1gXtFNiBE8C6-nMKY0yau415vFtM19CkNd3gjcBMI1a_iSIxrj7gRbVeIe-_c7RTK759p7DFj4NH8CQrSU_I15Dle1WUVdWS_RSEUOZt8lb8rEHmXIILnsFeZxWhIPdSrfycQTMEbXeIWAWeAGAQUQ&type=image HTTP/1.1" 200 118
+2018-08-27 15:15:27,278 -- INFO -- /wx get_pic. words: 智轩大佬惹不起 return: {'type': 'image', 'media_id': 'L5XF3sxaB5RbGRTfTdS6DibtR3CpJqi3WJgYaYDWwxzmSaOZPk2wCqM49FCmMoyC', 'created_at': 1535354127}
+2018-08-27 15:17:15,840 -- INFO -- Fetching access token
+2018-08-27 15:17:15,841 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:17:16,065 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:17:16,067 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:17:16,488 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=42&str1=%E4%BF%9D%E6%89%8D%E6%80%95%E4%B8%8D%E6%98%AF%E4%B8%AA%E5%82%BB%E5%AD%90 HTTP/1.1" 200 None
+2018-08-27 15:17:16,491 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:17:16,714 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_Kl8WJBvU8kOBZigUPDeyLUjo9J4EAwpzUZnHEgGe1SrAQzRTkKLzdCBMO3oi6BEhfpbF0c74mz-IxHt_Yj6lw2EnQaLc3fYBiUa3KaNx8mdPU-gkGT_79pW2PfqBK-vLnegi33DNnFXLp_OrSUCdAAAWYG&type=image HTTP/1.1" 200 118
+2018-08-27 15:17:16,716 -- INFO -- /wx get_pic. words: 保才怕不是个傻子 return: {'type': 'image', 'media_id': '7lT9qfxxuUVD7FglNnQo1RmGak6Amv2Nr9YXVuJkuibpDpVUk2J4M0C3AgCNkSH2', 'created_at': 1535354236}
+2018-08-27 15:30:39,536 -- INFO -- /wx get_movie. words: 权力的游戏 data: [[('权力的游戏 \\ 冰与火之歌', '第一季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1c2hAnBE', '密码:vt5w'), ('权力的游戏 \\ 冰与火之歌', '第二季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1qYptqY4', '密码:6yk9'), ('权力的游戏 \\ 冰与火之歌', '第三季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1o7VK6H8', '密码:5wd3'), ('权力的游戏 \\ 冰与火之歌', '第四季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1hrS9bCw', '密码:4ex3'), ('权力的游戏 \\ 冰与火之歌', '第五季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1jIaCyd4', '密码:iqev'), ('权力的游戏 \\ 冰与火之歌', '第六季蓝光衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'https://pan.baidu.com/s/1MSdaKhrFosZhVYphGT4cQQ', '密码: r7z2'), ('权力的游戏 \\ 冰与火之歌', '动画版度盘', 'http://m.ashvsash.com/2017/07/364/?', 'http://pan.baidu.com/s/1kVvfAK3', '密码: kqfv'), ('权力的游戏 \\ 冰与火之歌', '第七季衣柜字幕', 'http://m.ashvsash.com/2017/07/364/?', 'https://pan.baidu.com/s/1c2pVm5y', '密码: uk79')], []] return: 权力的游戏 \ 冰与火之歌 第一季蓝光衣柜字幕 http://pan.baidu.com/s/1c2hAnBE 密码:vt5w
+权力的游戏 \ 冰与火之歌 第二季蓝光衣柜字幕 http://pan.baidu.com/s/1qYptqY4 密码:6yk9
+权力的游戏 \ 冰与火之歌 第三季蓝光衣柜字幕 http://pan.baidu.com/s/1o7VK6H8 密码:5wd3
+权力的游戏 \ 冰与火之歌 第四季蓝光衣柜字幕 http://pan.baidu.com/s/1hrS9bCw 密码:4ex3
+权力的游戏 \ 冰与火之歌 第五季蓝光衣柜字幕 http://pan.baidu.com/s/1jIaCyd4 密码:iqev
+权力的游戏 \ 冰与火之歌 第六季蓝光衣柜字幕 https://pan.baidu.com/s/1MSdaKhrFosZhVYphGT4cQQ 密码: r7z2
+权力的游戏 \ 冰与火之歌 动画版度盘 http://pan.baidu.com/s/1kVvfAK3 密码: kqfv
+权力的游戏 \ 冰与火之歌 第七季衣柜字幕 https://pan.baidu.com/s/1c2pVm5y 密码: uk79
+
+2018-08-27 15:31:17,263 -- INFO -- Fetching access token
+2018-08-27 15:31:17,264 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:31:21,576 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:31:21,578 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:31:21,756 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=83&str1=%E7%8E%8B%E6%99%BA%E8%BD%A9%E4%BD%A0%E6%98%AF%E6%99%BA%E9%9A%9C%E5%90%97%EF%BC%9F HTTP/1.1" 200 None
+2018-08-27 15:31:21,759 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:31:22,011 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_5uvDE4KTOw-B4IsM3I1tP83zeFwTIM7gd0-8LdHS6wujagD62utp8Yd_n9cEZ-PPJxlq-dvpWrZg7lbwbiEo3YAjt7v2Q4gnZAvVvwJEpPDf6rL63aPDhQj2COFWiaKoSKamUoNyd0cs886LENGaAHAZIB&type=image HTTP/1.1" 200 118
+2018-08-27 15:31:22,013 -- INFO -- /wx get_pic. words: 王智轩你是智障吗？ return: {'type': 'image', 'media_id': 'X2VYkXLlqyuGJwRSPWvwwDcwiPsmjYFS4SxT7C2ktyEhAzSIGcMkA2CjFRpjfOkz', 'created_at': 1535355081}
+2018-08-27 15:31:47,485 -- INFO -- /wx get_movie. words: 盘古 data: [[], [('恋爱之瘾 PG戀愛指引 (2016)', '', 'http://m.ashvsash.com/2017/12/15716/?', 'http://pan.baidu.com/s/1qYytJLM', '密码: rexr')]] return: 恋爱之瘾 PG戀愛指引 (2016)  http://pan.baidu.com/s/1qYytJLM 密码: rexr
+
+2018-08-27 15:32:10,118 -- INFO -- /wx get_movie. words: 一出好戏 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-27 15:32:23,637 -- INFO -- /wx get_movie. words: 王智轩 data: [[], [('ZCZSWZX', '', 'http://m.ashvsash.com/2015/03/14291/?', 'http://pan.baidu.com/s/1i434MIL', '密码: 2hhw')]] return: ZCZSWZX  http://pan.baidu.com/s/1i434MIL 密码: 2hhw
+
+2018-08-27 15:34:35,420 -- INFO -- Fetching access token
+2018-08-27 15:34:35,421 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:34:35,678 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:34:35,680 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:34:38,286 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=19&str1=%E5%8F%AB%E7%88%B8%E7%88%B8 HTTP/1.1" 200 None
+2018-08-27 15:34:38,289 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:34:38,566 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_vn8CPBGj3iirEC1jRfjF66U-bL3al1p1tdtzbyMqNVjP4J5xmlbfna5UAtSvuCX-Hj492rif3wq-59tKMBBTZgDOL15TyelUnbpbhMXXgWjJq7snYDUeTgFzKyuXySJdlN65WIdsee6QSRSEWWFiAJAPPY&type=image HTTP/1.1" 200 118
+2018-08-27 15:34:38,568 -- INFO -- /wx get_pic. words: 叫爸爸 return: {'type': 'image', 'media_id': 'm3Dklj9BTc7kndLRnBCsbsBuzp_Z01OkVkP-yS_-pyOV0jHjYag8n_JJqlHhvm1Q', 'created_at': 1535355278}
+2018-08-27 15:36:23,047 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:36:23,445 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:36:23,446 -- INFO -- /wx turing. words: 唐保才 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-27 15:36:30,192 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:36:30,545 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:36:30,546 -- INFO -- /wx turing. words: 唐保才是我儿子 response: 早就看出来是亲戚关系了。
+2018-08-27 15:37:00,857 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:37:01,231 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:37:01,232 -- INFO -- /wx turing. words: 保才喜欢静怡 response: 有点不适应，是你本人在说话吗？
+2018-08-27 15:37:12,823 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:37:13,139 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:37:13,139 -- INFO -- /wx turing. words: 保才静怡在一起 response: 这是什么情况，聊的好好的。
+2018-08-27 15:37:26,133 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:37:26,322 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:37:26,323 -- INFO -- /wx turing. words: 王智轩:
+保才喜欢静怡 response: 这个嘛，你多和我聊聊就知道咯~
+2018-08-27 15:37:30,999 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:37:31,266 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:37:31,267 -- INFO -- /wx turing. words: 保才喜欢静怡 response: 我猜不到你想表达的意思。
+2018-08-27 15:38:07,986 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:08,531 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:08,532 -- INFO -- /wx turing. words: 怎么跟妹纸聊天 response: 聊什么？哪来的妹纸？
+2018-08-27 15:38:15,377 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:15,751 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:15,751 -- INFO -- /wx turing. words: 你不是么 response: 你说不是就不是
+2018-08-27 15:38:19,857 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:20,144 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:20,144 -- INFO -- /wx turing. words: 你是 response: 我是人见人爱，花见花开的N啦。
+2018-08-27 15:38:32,182 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:32,584 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:32,585 -- INFO -- /wx turing. words: 有你的主人可爱么 response: 哼明明是我最可爱
+2018-08-27 15:38:40,260 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:40,605 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:40,606 -- INFO -- /wx turing. words: 王智轩是谁 response: Snoopy同学一直在学习中，问我点别的吧！
+2018-08-27 15:38:53,924 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:38:54,215 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:38:54,216 -- INFO -- /wx turing. words: 你有喜欢的人么 response: 你啊，我喜欢的人就是你啊。
+2018-08-27 15:38:59,927 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:39:00,160 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:39:00,160 -- INFO -- /wx turing. words: 别闹 response: 我哪里有闹，我超级正常啦。
+2018-08-27 15:39:05,201 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:39:05,563 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:39:05,563 -- INFO -- /wx turing. words: gay response: 同性恋
+2018-08-27 15:39:11,545 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:39:11,779 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:39:11,780 -- INFO -- /wx turing. words: 说你呢 response: 从何说起
+2018-08-27 15:39:22,333 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:39:22,624 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:39:22,625 -- INFO -- /wx turing. words: 500年前 response: 哈哈没那么久
+2018-08-27 15:39:30,603 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:39:31,050 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:39:31,050 -- INFO -- /wx turing. words: 那有多久 response: 几千天而已
+2018-08-27 15:40:10,324 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:40:10,792 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:40:10,793 -- INFO -- /wx turing. words: 保才有喜欢的人吗 response: 有啊，悄悄告诉你，她是3组的一个女生哦
+2018-08-27 15:40:13,742 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:40:14,085 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:40:14,085 -- INFO -- /wx turing. words: 我要工作了 response: 你快成了工作狂了
+2018-08-27 15:40:35,746 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:40:36,046 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:40:36,047 -- INFO -- /wx turing. words: 那我应该怎么做 response: 问题在于你自己本身
+2018-08-27 15:40:53,864 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:40:54,254 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:40:54,255 -- INFO -- /wx turing. words: 保才有喜欢的人么 response: 有啊，悄悄告诉你，她是3组的一个女生哦
+2018-08-27 15:41:04,257 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:41:04,510 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:41:04,511 -- INFO -- /wx turing. words: 叫什么名字 response: 问人家名字，有什么企图？
+2018-08-27 15:41:12,171 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:41:12,582 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:41:12,583 -- INFO -- /wx turing. words: 智轩有喜欢的人么 response: 人是比较聪明的高等动物。
+2018-08-27 15:41:24,835 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:41:25,238 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:41:25,239 -- INFO -- /wx turing. words: 所以智轩？ response: 你想表达什么意思？
+2018-08-27 15:41:30,961 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:41:31,255 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:41:31,256 -- INFO -- /wx turing. words: 你猜 response: 我喜欢开门见山
+2018-08-27 15:41:38,995 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:41:39,312 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:41:39,313 -- INFO -- /wx turing. words: 保才 response: 你这样说，我理解不了。
+2018-08-27 15:42:38,577 -- INFO -- Fetching access token
+2018-08-27 15:42:38,578 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:42:38,858 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:42:38,860 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:42:39,126 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=43&str1=%E4%BF%9D%E6%89%8D%E6%9C%80%E5%B8%85 HTTP/1.1" 200 None
+2018-08-27 15:42:39,129 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:42:39,425 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_le9tkeJLcwsW16_WN8Zj4pvaBDksE-HWbVQX_EY__WQEzc0Fmbaa5-9vhPuYgUVHVXa2HEDU6PFR3Q10FtoJr1GMyXfuV1LPIzmHUBubzT_yzfg-Rs1Va3MKnT1X2CiTkq2VQu1Q0Z81Ev7KNEWbAGAJAS&type=image HTTP/1.1" 200 118
+2018-08-27 15:42:39,427 -- INFO -- /wx get_pic. words: 保才最帅 return: {'type': 'image', 'media_id': 'Gnq30fft0OvIB6weoDySpyjmvN9oH3qEugHW08LCV5sViI7RjvyEt17X6OKYx5HM', 'created_at': 1535355759}
+2018-08-27 15:44:43,102 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:44:43,469 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:44:43,469 -- INFO -- /wx turing. words: 保才喜欢谁？ response: 你先说，我再告诉你
+2018-08-27 15:44:58,381 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:44:59,198 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:44:59,199 -- INFO -- /wx turing. words: 唐保才有喜欢的人么 response: 满大街不都是人，有什么好稀奇的。
+2018-08-27 15:45:13,090 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:45:13,507 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:45:13,508 -- INFO -- /wx turing. words: 保才有喜欢的人 response: 有啊，悄悄告诉你，她是3组的一个女生哦
+2018-08-27 15:45:19,422 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:45:19,773 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:45:19,774 -- INFO -- /wx turing. words: 保才有喜欢的人 response: 有啊，悄悄告诉你，她是3组的一个女生哦
+2018-08-27 15:45:23,894 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:45:24,243 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:45:24,243 -- INFO -- /wx turing. words: 保才有喜欢 response: 有啊，悄悄告诉你，她是3组的一个女生哦
+2018-08-27 15:45:31,687 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-08-27 15:45:31,983 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-08-27 15:45:31,984 -- INFO -- /wx turing. words: 保才有喜 response: 你想说什么？
+2018-08-27 15:56:42,092 -- INFO -- Fetching access token
+2018-08-27 15:56:42,093 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 15:56:42,341 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:56:42,342 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:56:42,591 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=82&str1=%E7%94%9F%E6%B4%BB%E7%BB%88%E4%BA%8E%E5%AF%B9%E6%88%91%E8%BF%99%E5%8F%AA%E6%97%A0%E8%BE%9C%E7%9A%84%E5%B0%8F%E7%8C%AB%E5%92%AA%E5%87%BA%E6%89%8B%E4%BA%86 HTTP/1.1" 200 None
+2018-08-27 15:56:42,596 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:56:42,806 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_xSDXd3lTJz1030kkOnC7KyW4ofxnHPVldePj0cAl591MQX5a3VefNFVnLGsuErC7Q-bETDFQ6CGMKGWoxxrIBhmLJCg3ppeA1VCVu3uNcaW8HnuaWWoh27aivOCf53wKYHjxzMadCT90qUlcSXWbAJAINM&type=image HTTP/1.1" 200 118
+2018-08-27 15:56:42,808 -- INFO -- /wx get_pic. words: 生活终于对我这只无辜的小猫咪出手了 return: {'type': 'image', 'media_id': 'oPuKXOoIBkwX9SKInOjpq_LnkKdPcW_5VpsE2x8jQA6xl2tamQxl5Btw1gRQO5OK', 'created_at': 1535356602}
+2018-08-27 15:56:59,490 -- INFO -- Fetching access token
+2018-08-27 15:56:59,596 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-27 15:56:59,598 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 15:57:00,106 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=18&str1=nice HTTP/1.1" 200 None
+2018-08-27 15:57:00,109 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 15:57:00,334 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_y3ubMW7-rPAcnvJpOnC7KyW4ofxnHPVldePj0cAl591MQX5a3VefNFVnLGvg-f0L9z8sQ8WKnoHVk0ENHbw64UjvFt_0ykhYVKSCo0Snr6dxKlKKEgnoFpuugF7YAjkLK_m5xRjoiPG6d2NyAHSbAJAJQB&type=image HTTP/1.1" 200 118
+2018-08-27 15:57:00,336 -- INFO -- /wx get_pic. words: nice return: {'type': 'image', 'media_id': 'Gqij8Wy4PxlYscvg_aXzcdARh5fk9TzsV4OnGeb6HPAEsEvtlMLqA3hTaZOUqA6r', 'created_at': 1535356620}
+2018-08-27 15:57:26,842 -- INFO -- /wx get_movie. words: 生活大爆炸 data: [[('生活大爆炸1-11季', '第十一季链接', 'http://m.ashvsash.com/2016/09/447/?', 'https://pan.baidu.com/s/1HJyuogHFmLHTJXMN-NDPfg', '密码: per2'), ('生活大爆炸1-11季', '第十季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'https://pan.baidu.com/s/1PoUjACiZ9Z2ewHl-xc1ncQ', '密码: v1nw'), ('生活大爆炸1-11季', '第九季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1boWdnAn', '密码: iqcf'), ('生活大爆炸1-11季', '第八季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1pL4QEoj', '密码: 3utj'), ('生活大爆炸1-11季', '第七季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1skVAHSp', '密码: jpjs'), ('生活大爆炸1-11季', '第六季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1nuKn8YP', '密码: 6wzw'), ('生活大爆炸1-11季', '第五季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1hsHqlc4', '密码: 3e9q'), ('生活大爆炸1-11季', '第四季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1hs7MJwo', '密码: ywyx'), ('生活大爆炸1-11季', '第三季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1kUKrDeZ', '密码: wchq'), ('生活大爆炸1-11季', '第二季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1jIBgzVC', '密码: 6ugq'), ('生活大爆炸1-11季', '第一季度盘', 'http://m.ashvsash.com/2016/09/447/?', 'http://pan.baidu.com/s/1jI3EVQY', '密码: cucn')], []] return: 生活大爆炸1-11季 第十一季链接 https://pan.baidu.com/s/1HJyuogHFmLHTJXMN-NDPfg 密码: per2
+生活大爆炸1-11季 第十季度盘 https://pan.baidu.com/s/1PoUjACiZ9Z2ewHl-xc1ncQ 密码: v1nw
+生活大爆炸1-11季 第九季度盘 http://pan.baidu.com/s/1boWdnAn 密码: iqcf
+生活大爆炸1-11季 第八季度盘 http://pan.baidu.com/s/1pL4QEoj 密码: 3utj
+生活大爆炸1-11季 第七季度盘 http://pan.baidu.com/s/1skVAHSp 密码: jpjs
+生活大爆炸1-11季 第六季度盘 http://pan.baidu.com/s/1nuKn8YP 密码: 6wzw
+生活大爆炸1-11季 第五季度盘 http://pan.baidu.com/s/1hsHqlc4 密码: 3e9q
+生活大爆炸1-11季 第四季度盘 http://pan.baidu.com/s/1hs7MJwo 密码: ywyx
+生活大爆炸1-11季 第三季度盘 http://pan.baidu.com/s/1kUKrDeZ 密码: wchq
+生活大爆炸1-11季 第二季度盘 http://pan.baidu.com/s/1jIBgzVC 密码: 6ugq
+生活大爆炸1-11季 第一季度盘 http://pan.baidu.com/s/1jI3EVQY 密码: cucn
+
+2018-08-27 16:00:05,910 -- INFO -- Fetching access token
+2018-08-27 16:00:05,911 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-27 16:00:06,813 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 173
+2018-08-27 16:00:06,815 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-27 16:00:07,489 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=28&str1=%E9%97%AD%E5%98%B4 HTTP/1.1" 200 None
+2018-08-27 16:00:07,494 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-27 16:00:07,728 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_gLneow3j_v9uSINoOS7iBxogLCFhAXGBGxjXM4aGjkTry0wlQfL35mdKzrNA7o2181pZUj15GD1BJt59CkrChsrFp2xFxVayQ6ml-YGdvCyuVKvNCFCCy1UHzbIRUVfAEABEF&type=image HTTP/1.1" 200 118
+2018-08-27 16:00:07,730 -- INFO -- /wx get_pic. words: 闭嘴 return: {'type': 'image', 'media_id': '8PGLqfV5C4OPhdUEAUKMBQ1i30vuMqrLlQR4WA0K2ootEbKzz7f91lLCIrL14PrT', 'created_at': 1535356807}
+2018-08-28 22:10:18,842 -- INFO -- Fetching access token
+2018-08-28 22:10:18,844 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-28 22:10:19,090 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-28 22:10:19,092 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-28 22:10:20,473 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=17&str1=%E5%AE%87%E8%88%9F%E4%B8%8D%E6%98%AF%E4%BA%BA HTTP/1.1" 200 None
+2018-08-28 22:10:20,478 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-28 22:10:20,761 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_ilgXiKoB_pyTvsWxPDeyLUjo9J4EAwpzUZnHErXFp_GEeO8b6bHii2REVvsHYbivaow3HjfrICTwUuKrldHX_GdqNVLL9BpKOk1AHTflfvChBc5HZ9axtPXyL1HCH9v6yhIlghpI0tR0cFjnNHQbAHAQKT&type=image HTTP/1.1" 200 118
+2018-08-28 22:10:20,763 -- INFO -- /wx get_pic. words: 宇舟不是人 return: {'type': 'image', 'media_id': 'zA2C0X-PlsvyKQ_bCaVjbwPKtC-HyPBQ2PFeyjQwCFaXOccjeoXhSQL5J8FV-CW0', 'created_at': 1535465420}
+2018-08-28 22:10:27,523 -- INFO -- Fetching access token
+2018-08-28 22:10:27,613 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-28 22:10:27,615 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-28 22:10:28,033 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=10&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E4%B8%8D%E6%98%AF%E4%BA%BA HTTP/1.1" 200 None
+2018-08-28 22:10:28,037 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-28 22:10:28,310 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_C5FuPcUW6kBJ7MbNPDeyLUjo9J4EAwpzUZnHErXFp_GEeO8b6bHii2REVvsFnyWicPadryivc5c_Pqos6Ydtgp112M2U4MYHyWxoXpn_QF8XtMzU5OVkH7JHgWlbAQZFwH28fKS3nAtDrh8TUNRbAHANGK&type=image HTTP/1.1" 200 118
+2018-08-28 22:10:28,312 -- INFO -- /wx get_pic. words: 宇舟你不是人 return: {'type': 'image', 'media_id': 'p4gEieClJ56uENVZ2qdn0LpGjkXeO3RpPe_CHc7083wNiOJDS2zisA4qtgHXAxcU', 'created_at': 1535465428}
+2018-08-28 22:10:34,471 -- INFO -- Fetching access token
+2018-08-28 22:10:34,561 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-28 22:10:34,563 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-28 22:10:36,124 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=68&str1=%E5%AE%87%E8%88%9F%E4%B8%8D%E6%98%AF%E4%BA%BA HTTP/1.1" 200 None
+2018-08-28 22:10:36,127 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-28 22:10:36,365 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_ilwFG6sL0auzM3Z2PDeyLUjo9J4EAwpzUZnHErXFp_GEeO8b6bHii2REVvsg3hk6fMyMfAhUupQuvnQN106rY_CkMnL87xiv-qeY6_3fMmUKIxv0EqckJwV1okH0SWh15ixV4HXU5X_l_m2pCJBbAHAXEW&type=image HTTP/1.1" 200 118
+2018-08-28 22:10:36,367 -- INFO -- /wx get_pic. words: 宇舟不是人 return: {'type': 'image', 'media_id': 'M_5Z6frrO6k9PKgBQoDv3deAst2joUPK1h4LDum52t3GWdxRicAqZjkIxBzo1EcJ', 'created_at': 1535465436}
+2018-08-28 22:10:38,487 -- INFO -- Fetching access token
+2018-08-28 22:10:38,593 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-28 22:10:38,596 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-28 22:10:40,296 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=60&str1=%E5%AE%87%E8%88%9F%E4%BD%A0%E4%B8%8D%E6%98%AF%E4%BA%BA HTTP/1.1" 200 None
+2018-08-28 22:10:40,300 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-28 22:10:40,530 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_FCElpjPvGEz-Gob3PDeyLUjo9J4EAwpzUZnHErXFp_GEeO8b6bHii2REVvtQtcc0Ne2hHFryzR863-DpJbplOpEV3LHST46JubhTEXDoLriJpv0W5VY2KHcSnbMEXJJUHATKaOfXlFt7hzHJNLTbAHAZXF&type=image HTTP/1.1" 200 118
+2018-08-28 22:10:40,531 -- INFO -- /wx get_pic. words: 宇舟你不是人 return: {'type': 'image', 'media_id': '27hYoEfLs7ztkNpOYw4kMWs-V37l1s8PkcJ8huj6-_0lslIeZ8mcsi7bmhuRTv8g', 'created_at': 1535465440}
+2018-08-31 10:35:17,508 -- INFO -- /wx get_movie. words: 古墓丽影 data: [[('古墓丽影1-2  Lara Croft Tomb Raider 1-2', '第一部', 'http://m.ashvsash.com/2016/01/1540/?', 'http://pan.baidu.com/s/1nu8givv', '密码: f568'), ('古墓丽影1-2  Lara Croft Tomb Raider 1-2', '第二部', 'http://m.ashvsash.com/2016/01/1540/?', 'http://pan.baidu.com/s/1miMB8EG', '密码: b351')], []] return: 古墓丽影1-2  Lara Croft Tomb Raider 1-2 第一部 http://pan.baidu.com/s/1nu8givv 密码: f568
+古墓丽影1-2  Lara Croft Tomb Raider 1-2 第二部 http://pan.baidu.com/s/1miMB8EG 密码: b351
+
+2018-08-31 10:35:31,260 -- INFO -- /wx get_movie. words: 蚁人 data: [[('蚁人 Ant-Man (2015)', '', 'http://m.ashvsash.com/2016/01/3202/?', 'http://pan.baidu.com/s/1sjMNHSh', '')], [('囚禁 Insyriated (2017)', '', 'http://m.ashvsash.com/2018/05/16535/?', 'https://pan.baidu.com/s/17-jXblPTJfHuDQwnbNP9gg', '密码: qdhg'), ('殉道者杀手 Let Me Make You a Martyr (2015)', '', 'http://m.ashvsash.com/2017/06/14867/?', 'http://pan.baidu.com/s/1o7IV3kQ', '密码: jim6'), ('K歌情人 Music and Lyrics (2007)', '', 'http://m.ashvsash.com/2017/04/14549/?', 'http://pan.baidu.com/s/1jI5JYUa', '密码: 6paj'), ('安德烈：黑色的迷宫 Andròn: The Black Labyrinth (2016)', '', 'http://m.ashvsash.com/2016/06/12130/?', 'http://pan.baidu.com/s/1hsHbQtu', '密码：60n8'), ('YYRPNDPLL', '', 'http://m.ashvsash.com/2016/03/14244/?', 'http://pan.baidu.com/s/1kVBOxV5', '密码: k8eb'), ('缄默的迷宫 Im Labyrinth des Schweigens (2014)', '', 'http://m.ashvsash.com/2016/01/9645/?', 'http://pan.baidu.com/s/1qXe7FWg', ''), ('殉难者 Martyrs (2008)', '', 'http://m.ashvsash.com/2016/01/7598/?', 'http://pan.baidu.com/s/1dFqMTGX', '密码：8uxv'), ('暴君  Tyrant Season 1-3季', '第一季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'http://pan.baidu.com/s/1c1G2z7M', '密码: 4ti2'), ('暴君  Tyrant Season 1-3季', '第二季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'https://pan.baidu.com/s/1sl7bWux', '密码:85c2'), ('暴君  Tyrant Season 1-3季', '第三季链接', 'http://m.ashvsash.com/2016/01/4328/?', 'https://pan.baidu.com/s/1kVwyTc7', '密码: 4ez9'), ('简爱 Jane Eyre (2011)', '', 'http://m.ashvsash.com/2016/01/2566/?', 'http://pan.baidu.com/s/1mi1bgTU', '密码: t6qj'), ('僵尸来袭 Wyrmwood: Road of the Dead (2015)', '', 'http://m.ashvsash.com/2016/01/1256/?', 'http://pan.baidu.com/s/1dEzwOLF', ''), ('夺命金字塔 The Pyramid (2014)', '', 'http://m.ashvsash.com/2016/01/962/?', 'http://pan.baidu.com/s/1boX24bX', '密码: s13v')]] return: 蚁人 Ant-Man (2015)  http://pan.baidu.com/s/1sjMNHSh 
+
+2018-08-31 10:35:38,366 -- INFO -- /wx get_movie. words: 快把我哥 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-08-31 13:30:35,682 -- INFO -- Fetching access token
+2018-08-31 13:30:35,683 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-31 13:30:36,232 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:30:36,234 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:30:36,718 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=32&str1=QA%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:30:36,722 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:30:36,970 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_sauywgoWGgLvv1tuvW_RNe1LOOK7MX3gBVDKvkblCJvX-NGZvIf5n7g1S_BSgp-8Mldt2f0j0Nuyw8X_fodndVmaDAG_yv1lY-5pTQwKDugAZrabFFeu89tLSdurGE3ZqG5UWK27qfPdwT-IQTAcAJAYBI&type=image HTTP/1.1" 200 118
+2018-08-31 13:30:36,972 -- INFO -- /wx get_pic. words: QA你这里有个BUG return: {'type': 'image', 'media_id': 'dsSixddepd5QZ3sj2pOu7xRY4vcJkZ6FTw-ccCjXWDQqw6aS9QpVpd23SS1S57Sn', 'created_at': 1535693436}
+2018-08-31 13:31:02,127 -- INFO -- Fetching access token
+2018-08-31 13:31:02,128 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-31 13:31:02,532 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:02,534 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:03,265 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=45&str1=QA%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:03,268 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:03,495 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_jvgDW_KRaG8hahPxWf6EfyyT69Ilzsv3s4wucUxmDhl4B6ruHe0FfNhpF5KWIF69Vk-9_q58v0QdFoB1pqdZDOVhHwAEzJaM1towNd_jXTCBwaWykXvfUhSGWKtO265EcIKTS4HWLJ7aDDonKFGaADAZUV&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:03,497 -- INFO -- /wx get_pic. words: QA你这里有个BUG return: {'type': 'image', 'media_id': 'pXpQ4JaRsavvf047kvtytM-0OCdn22l8aTsn7icI0EyTwYlbQXm1XHYYBfrCmxwn', 'created_at': 1535693463}
+2018-08-31 13:31:11,407 -- INFO -- Fetching access token
+2018-08-31 13:31:11,528 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:11,530 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:11,775 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=56&str1=QA%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:11,778 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:12,041 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_IZqp6Qlh6_WPHDpyWf6EfyyT69Ilzsv3s4wucUxmDhl4B6ruHe0FfNhpF5IAAl1klQuMvUmqzLrM09aNdHPLbIZqke0wzc8C6AL51XaWSDbK7QhWtucd_fAcaVF6i2LokoWZGIDdpk4MRh2NZLWaADATFQ&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:12,044 -- INFO -- /wx get_pic. words: QA你这里有个BUG return: {'type': 'image', 'media_id': 'l_WZhZ6V5cTeoOkHvWCAmRoCa8OSlM4klt9dRwhjvZGL3sVKT_8HAv9nwvLUeNJE', 'created_at': 1535693472}
+2018-08-31 13:31:33,675 -- INFO -- Fetching access token
+2018-08-31 13:31:33,676 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-08-31 13:31:33,979 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:33,981 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:34,182 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=30&str1=%20QA%20%20%20%20%20%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:34,185 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:34,441 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_pHn089oY__pkvOZJl4lxCEVV0u5WV6wwsGeIU_ieV8p6pxWDzNI_CaTVeuvHN17FWFSj1RSf8AVzj5N7dwm9trHPa_Pj0Yof4li3ClfIgUp9swmgWOMAamTe7RvNWXY_Bzj76tCWHdrXgsToYREaACAJCP&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:34,443 -- INFO -- /wx get_pic. words:  QA      你这里有个BUG return: {'type': 'image', 'media_id': 'WNNhyzHBPohB2ulIYUR4IHnYqBC7MyxGr3qprnWNI6Yfco1FigTkL1ThM7SNok9m', 'created_at': 1535693494}
+2018-08-31 13:31:44,639 -- INFO -- Fetching access token
+2018-08-31 13:31:44,755 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:44,757 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:45,003 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=6&str1=%20QA%20%20%20%20%20%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:45,007 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:45,279 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_TXO_c9CqpvNHwfjRl4lxCEVV0u5WV6wwsGeIU_ieV8p6pxWDzNI_CaTVeuuW2efGp6AE-rr6Dydpl-50JnzP75Ny_s-omvaMfDNeRoJV6XZKlENB2IB3xzraUt1jxTskYzsn98XSoVw5r-IjAQUaACAQGK&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:45,281 -- INFO -- /wx get_pic. words:  QA      你这里有个BUG return: {'type': 'image', 'media_id': 'BRuP7KLnGnx3-uokCZ5MJXNtkAJtWEs7vqo4ZNhzW1XUJD0oH95D0SeCEbl4dQ4b', 'created_at': 1535693505}
+2018-08-31 13:31:52,929 -- INFO -- Fetching access token
+2018-08-31 13:31:53,058 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:53,060 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:53,291 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=39&str1=%20QA%20%20%20%20%20%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:53,294 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:53,516 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_zQANU158-LR5hcv0bn8n4JtzPGRM7fapIFYiVAOBndZrOTMWyCN-sbf9xXAp6uVJ9rYoXn42NbM90MHlZNv0l1REigbe3JJ9eOiQX8n-rawSFU8XVAjpTB6mtD5K4LG5g1mDqxBgcQnz12AcBYKbAHASPB&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:53,518 -- INFO -- /wx get_pic. words:  QA      你这里有个BUG return: {'type': 'image', 'media_id': 'Ho_5cmMFg4EsvLsQ8BOkg0Ve89OAFw88sQqN55t6dPRxEE3ZMOmQSU1pMINLdha3', 'created_at': 1535693513}
+2018-08-31 13:31:57,992 -- INFO -- Fetching access token
+2018-08-31 13:31:58,093 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:31:58,095 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:31:58,313 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=19&str1=%20QA%20%20%20%20%20%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:31:58,317 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:31:58,573 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_LvEqPWG8zZurpQkCbn8n4JtzPGRM7fapIFYiVAOBndZrOTMWyCN-sbf9xXCiwRN7wKAyfcKAGUdx5_6jsoUpSiUbC_aGNWJQ4kCdfj5UoSPCtCTJRb9Nur-FeHmQsRarO0kkrPVLD05xWAWIDYMbAHAXSG&type=image HTTP/1.1" 200 118
+2018-08-31 13:31:58,576 -- INFO -- /wx get_pic. words:  QA      你这里有个BUG return: {'type': 'image', 'media_id': 'M_5Z6frrO6k9PKgBQoDv3T0QDttocVk3TgNePIMPbngNRzXLxBk1jLxVIDYuUzE8', 'created_at': 1535693518}
+2018-08-31 13:32:06,528 -- INFO -- Fetching access token
+2018-08-31 13:32:06,643 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:06,645 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:06,918 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=73&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:06,986 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:07,321 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_au51tSV7t9Ga0FI7bn8n4JtzPGRM7fapIFYiVAOBndZrOTMWyCN-sbf9xXBcARmXqU2XRa2RRXPCpTC8jvQd_88hV1JkPLiJRlujVapSiCdq-i_3ppwYf_K960_eX7obgztwWQJyNSVJcNKfQIHbAHAEWV&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:07,323 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': 'HJ0t2K1Jf9pIcpWHTGBuDee29-JX4E-K293qoFfog3-7SDWZPimNVOzEDHBmgJw8', 'created_at': 1535693527}
+2018-08-31 13:32:14,709 -- INFO -- Fetching access token
+2018-08-31 13:32:14,834 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:14,836 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:15,017 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=24&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:15,021 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:15,223 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_i3ysTJmR4oD_Xql_urqhgK1A8vssxapif5rB6kfvdV63TBd7TGBzOcAK-Z6jhVmLn6B08rYw1PKX6HBrLLsLh50h8qgZ6R5WLhMoGImHzcoHAk00NntB4GFBdtrlHPKH4R1xIq5y4MUeQWn2ZWUaAHAVSQ&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:15,225 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': '1EIzXNid4-rdP1IFbzIkxJV5roFbRoQKhsODGb_TaOPS2Y4fmYFY-WhLrYfGwGXP', 'created_at': 1535693535}
+2018-08-31 13:32:19,815 -- INFO -- Fetching access token
+2018-08-31 13:32:19,962 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:19,965 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:20,179 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=10&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:20,182 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:20,385 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_2UJ-wHwN-YrbRckCurqhgK1A8vssxapif5rB6kfvdV63TBd7TGBzOcAK-Z7KEBoxZvHAhjxNlJPHmzHHAdEfzlNf9c73kSje0QE2nKaQfV-30L1iF46pPn_eH2ic3O724vuLqQX8iSByv6e-TBVaAHAIQK&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:20,386 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': 'uF9rF3InyvtHGowJAwP3NhipaXxE6XvEduyXOvbcwIC2-VFwi7EXAYdGtdcY1Mo9', 'created_at': 1535693540}
+2018-08-31 13:32:24,907 -- INFO -- Fetching access token
+2018-08-31 13:32:25,021 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:25,023 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:25,308 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=4&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:25,375 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:25,709 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_9GWwNpfhAdeuAmcaurqhgK1A8vssxapif5rB6kfvdV63TBd7TGBzOcAK-Z4jzDt0awYTaGIakt-ahrqSkhhaS-aCaYmefDDiCW-pb3iX9wh6pDWlJLxcrgaCd4_VtkvHZuIRc6XJzOVIkd3tWMTaAHAFVC&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:25,712 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': 'ZyvlbNXexTEVa__9KOxeIvOAsFkBw061OqWqmHrCyGaDWfvBunuczWo8LZgjDxEH', 'created_at': 1535693545}
+2018-08-31 13:32:29,830 -- INFO -- Fetching access token
+2018-08-31 13:32:29,940 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:29,942 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:30,211 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=40&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:30,214 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:30,520 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_R4EyNHvPFcF4UulAurqhgK1A8vssxapif5rB6kfvdV63TBd7TGBzOcAK-Z6rPaM4qjHVEspuToZDuVfpIn7NCgGVWAdvXwSl6t9LzKKPABZTEwszSZWu7K9VbN1sFOIoghZW5oGlgWGEuLDgYADaAHARTW&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:30,522 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': 'W-y2V5bZ-oN6E_8Pg11n4mZfokMm3YdotDU3VOVCEOEgy5iLjFc6fvC9KiRksdnA', 'created_at': 1535693550}
+2018-08-31 13:32:35,295 -- INFO -- Fetching access token
+2018-08-31 13:32:35,408 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-08-31 13:32:35,409 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-08-31 13:32:35,646 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=68&str1=%20%E4%BD%A0%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AABUG HTTP/1.1" 200 None
+2018-08-31 13:32:35,649 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-08-31 13:32:36,033 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_xL_x88Vms_TLP-hOYYrzrdAD676SAx6AysNcrBwpSx4lMUgNBp3Dxp1M5k_2Wkms0jcIFeBZlRPlEVzlWZX3d5BX5wj4gRK8yC95bg5FQsjQEetUY4hNw_QEankHOtzTE_Md6JCMHfHfJ_QIAXNcAGAURH&type=image HTTP/1.1" 200 118
+2018-08-31 13:32:36,040 -- INFO -- /wx get_pic. words:  你这里有个BUG return: {'type': 'image', 'media_id': 'joxXgt8ymGUQD2jks-HYN7xE4obV6yJywYvajFqU-FXxB0pIFvlPD83CwKNMRlrb', 'created_at': 1535693556}
+2018-09-01 00:52:44,106 -- INFO -- Fetching access token
+2018-09-01 00:52:44,107 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-01 00:52:44,388 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 00:52:44,390 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 00:52:45,662 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=31&str1=%E6%B0%B8%E5%98%89%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E4%B8%A5%E6%A0%BC HTTP/1.1" 200 None
+2018-09-01 00:52:45,665 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 00:52:45,911 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_OaMGEqA6I5KNYRu_Kg1j8-7YG6oXdWWSM7v52QqCgFe5znTWsjSjoDgBW2wyDYZW7zAsLI7Wsj9zgKy5TtmxfmdpWYxxZIjfi7r_VewUqv_3VcxAslNWD5xUqzPkKPCiVCkDNkb4aQ2QeMN0CIZcACALRI&type=image HTTP/1.1" 200 118
+2018-09-01 00:52:45,914 -- INFO -- /wx get_pic. words: 永嘉你真的很严格 return: {'type': 'image', 'media_id': 'Ui0x-uSTloxAVYpchcsWhl36hxwj_iDd7dyujdQkVH3hUchFQWJ5qCEiEiHKpi5P', 'created_at': 1535734365}
+2018-09-01 00:53:27,020 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-09-01 00:53:27,313 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-09-01 00:53:27,313 -- INFO -- /wx turing. words: 表情包 response: 好看的人拍张照片当头像　丑的人只能当表情包。
+2018-09-01 00:53:34,008 -- INFO -- Fetching access token
+2018-09-01 00:53:34,010 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-01 00:53:34,231 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 00:53:34,233 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 00:53:34,503 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=23&str1=%E6%B0%B8%E5%98%89%E5%A4%A7%E6%A6%82%E6%98%AF%E4%B8%AA%E5%82%BB%E5%AD%90 HTTP/1.1" 200 None
+2018-09-01 00:53:34,506 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 00:53:34,730 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_uRe2qagNm4WtxBhir6qhozOdoiZnBRSWQnPrDf-zlziCwHnr1ko8GUb-QTyZg0_kdacwtFoX7NHMN8AqUD17KOIc3CEWo9BMJWtiLh7pOGSeucHdII-clvEMkjXc1gH7sXIYnm4Gi8ljqJEODKHgACANUR&type=image HTTP/1.1" 200 118
+2018-09-01 00:53:34,731 -- INFO -- /wx get_pic. words: 永嘉大概是个傻子 return: {'type': 'image', 'media_id': 'fELhv_fUs7Jz3DnVSqqRggMsZ4ewvx0lJZSvqMXWh4Dv_i9cZ9UtaSytfXC7OFtL', 'created_at': 1535734414}
+2018-09-01 00:53:43,796 -- INFO -- Fetching access token
+2018-09-01 00:53:43,945 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 00:53:43,947 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 00:53:44,204 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=60&str1=%E6%B0%B8%E5%98%89%E5%A4%A7%E6%A6%82%E6%98%AF%E4%B8%AA%E5%82%BB%E5%AD%90 HTTP/1.1" 200 None
+2018-09-01 00:53:44,207 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 00:53:44,451 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_Klpaz6QVqxgKdor5r6qhozOdoiZnBRSWQnPrDf-zlziCwHnr1ko8GUb-QTzoyTxI7N8IxegRXhzOrPadVTM7mEUgmPkVn2As4SN2QS9MSahxHeWfcIPRAgxR0_cEzB4xmGce4-m_Gpti9JPJQOJgACAZXS&type=image HTTP/1.1" 200 118
+2018-09-01 00:53:44,453 -- INFO -- /wx get_pic. words: 永嘉大概是个傻子 return: {'type': 'image', 'media_id': 'V4oKgBEVqyQUIpaxBdiT1EmBCWpaKdgxwnUpXGZ7bNVyzeEqKzuYPvGm_J7jaK6y', 'created_at': 1535734424}
+2018-09-01 14:25:25,817 -- INFO -- Fetching access token
+2018-09-01 14:25:25,818 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-01 14:25:26,285 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 14:25:26,287 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 14:25:27,067 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=1&str1=%E9%A9%AC%E4%B8%8D%E5%81%9C%E8%B9%84%E6%9D%A5%E7%9C%8B%E4%BD%A0 HTTP/1.1" 200 None
+2018-09-01 14:25:27,071 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 14:25:27,363 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_swtxN-wvcKvx8aimFKJnn_tew6AoXbBLxUKU3xkiv-l_Ymva37LPa70aZmjcoTUbCUKbsDOAZVeDvcKF0hVU013Tml3wNKkeIT-7RQPC0-EdQmcWt1PnJHD-8KK6PavPKY2158OX3t7EbvTWTRMhAGAKID&type=image HTTP/1.1" 200 118
+2018-09-01 14:25:27,365 -- INFO -- /wx get_pic. words: 马不停蹄来看你 return: {'type': 'image', 'media_id': 'IlQmY_LPVVfOF0l_TVFM7au4ebiHfllMLhDXxJA8NdWRedoUB4dkmbKd2xUQU-Lq', 'created_at': 1535783127}
+2018-09-01 14:25:33,445 -- INFO -- Fetching access token
+2018-09-01 14:25:33,578 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 14:25:33,580 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 14:25:35,935 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=9&str1=%E9%A9%AC%E4%B8%8D%E5%81%9C%E8%B9%84%E6%9D%A5%E7%9C%8B%E4%BD%A0 HTTP/1.1" 200 None
+2018-09-01 14:25:35,975 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 14:25:36,330 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_13-xNSMpEXABLxjxFKJnn_tew6AoXbBLxUKU3xkiv-l_Ymva37LPa70aZmiVpMnRmebCZZqBCK-jJcp4LX-YqetcY7Pj6Y-Qy8IQ4gGxJ-u-kceWnz-JOGzJSH6IcFpqzHMNWDveeHPZCDfzDIFhAGAYDA&type=image HTTP/1.1" 200 118
+2018-09-01 14:25:36,332 -- INFO -- /wx get_pic. words: 马不停蹄来看你 return: {'type': 'image', 'media_id': 'jg9jh9M2-u52GQ3dHWd2CUm0ImZeJyAlfgRIHHZzrSPf2Tegv4EmCXBe0Bm9Dgk-', 'created_at': 1535783136}
+2018-09-01 14:25:43,819 -- INFO -- Fetching access token
+2018-09-01 14:25:43,897 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 14:25:43,898 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 14:25:44,133 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=37&str1=%E9%A9%AC%E4%B8%8D%E5%81%9C%E8%B9%84%E6%9D%A5%E7%9C%8B%E4%BD%A0 HTTP/1.1" 200 None
+2018-09-01 14:25:44,137 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 14:25:44,396 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_szP7Op1RotVVMSK1FKJnn_tew6AoXbBLxUKU3xkiv-l_Ymva37LPa70aZmiS_IbS7Jsa-QeIvUCCesgSL8G5UYjJOvERdygOBYxjaOJpERDKcWv-6UFzL_zuXUa0miSTi_8mJRQkd91K4wEXQRKhAGAWXQ&type=image HTTP/1.1" 200 118
+2018-09-01 14:25:44,398 -- INFO -- /wx get_pic. words: 马不停蹄来看你 return: {'type': 'image', 'media_id': 'WsPRL_pzQ6d2ACb9QxD64LdluWzZMBNTxziR-1hGgOUYlzef5txEVvpD13nhutSZ', 'created_at': 1535783144}
+2018-09-01 14:25:49,427 -- INFO -- Fetching access token
+2018-09-01 14:25:49,569 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-01 14:25:49,571 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-01 14:25:49,763 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=34&str1=%E9%A9%AC%E4%B8%8D%E5%81%9C%E8%B9%84%E6%9D%A5%E7%9C%8B%E4%BD%A0 HTTP/1.1" 200 None
+2018-09-01 14:25:49,766 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-01 14:25:49,990 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_UumZKWTFPzzxA25q9hbJCqS4Oc4rlrc32Hjv8QSpC62hJ0t2v8UkQPCCY1ismG--HhyVf5osvjKGDvF0nAzS5ULeIJTMh3-v-XFLOL2o1gjajsg9j-K_cvha0Tz4-yPFyWtBY8fbDlJOcN5pDRIbAIAQEV&type=image HTTP/1.1" 200 118
+2018-09-01 14:25:49,992 -- INFO -- /wx get_pic. words: 马不停蹄来看你 return: {'type': 'image', 'media_id': 'ESJYjt3SKXdtYWoQIQZHLUAc6K6yNOK_M-ZC9x20TvIB4qzXw71Yf6y1pKCpWGGB', 'created_at': 1535783149}
+2018-09-01 23:41:31,051 -- INFO -- /wx get_movie. words: 进击的巨人 data: [[('进击的巨人剧场版：觉醒的咆哮 (2018)', '', 'http://m.ashvsash.com/2018/07/16842/?', 'https://pan.baidu.com/s/11c8kaTCaHR8EaZnNivEYPA', '密码: n4xy'), ('【动漫】进击的巨人番外：进击！巨人中学 / 最强中学 (2015)', '', 'http://m.ashvsash.com/2016/01/9671/?', 'http://pan.baidu.com/s/1YoCKA', ''), ('进击的巨人-真人版：前篇+后篇·世界终结 (2015)', '第一部', 'http://m.ashvsash.com/2016/01/9132/?', 'http://pan.baidu.com/s/1pKs3Jir', '密码: xpn5'), ('进击的巨人-真人版：前篇+后篇·世界终结 (2015)', '第二部', 'http://m.ashvsash.com/2016/01/9132/?', 'http://pan.baidu.com/s/1o6SZhrk', '密码: vhcb'), ('进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】', '第三季度盘', 'http://m.ashvsash.com/2016/01/435/?', 'https://pan.baidu.com/s/14U3z3gWIdmzb2Q6Gshn1Fg', '密码: 4twi'), ('进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】', '点我！资源连接', 'http://m.ashvsash.com/2016/01/435/?', 'http://pan.baidu.com/s/1kU868HD', '密码: utmn'), ('进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】', '动画TV全集', 'http://m.ashvsash.com/2016/01/435/?', 'http://pan.baidu.com/s/1gePgXbl', '密码: bhux'), ('进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】', '第二季链接', 'http://m.ashvsash.com/2016/01/435/?', 'http://pan.baidu.com/s/1mjpwtp2', '密码: 7xiv')], []] return: 进击的巨人剧场版：觉醒的咆哮 (2018)  https://pan.baidu.com/s/11c8kaTCaHR8EaZnNivEYPA 密码: n4xy
+【动漫】进击的巨人番外：进击！巨人中学 / 最强中学 (2015)  http://pan.baidu.com/s/1YoCKA 
+进击的巨人-真人版：前篇+后篇·世界终结 (2015) 第一部 http://pan.baidu.com/s/1pKs3Jir 密码: xpn5
+进击的巨人-真人版：前篇+后篇·世界终结 (2015) 第二部 http://pan.baidu.com/s/1o6SZhrk 密码: vhcb
+进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】 第三季度盘 https://pan.baidu.com/s/14U3z3gWIdmzb2Q6Gshn1Fg 密码: 4twi
+进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】 点我！资源连接 http://pan.baidu.com/s/1kU868HD 密码: utmn
+进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】 动画TV全集 http://pan.baidu.com/s/1gePgXbl 密码: bhux
+进击的巨人【剧场版前篇+后篇+TV版全集+第二季+第三季】 第二季链接 http://pan.baidu.com/s/1mjpwtp2 密码: 7xiv
+
+2018-09-02 00:35:47,733 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-09-02 00:35:49,553 -- DEBUG -- http://xlyy100.com:80 "GET /index.php?m=vod-search-pg-1-wd-%E7%A2%9F%E4%B8%AD%E8%B0%8D6.html HTTP/1.1" 200 None
+2018-09-02 00:35:49,596 -- DEBUG -- Starting new HTTP connection (1): xlyy100.com
+2018-09-02 00:35:49,837 -- DEBUG -- http://xlyy100.com:80 "GET /?m=vod-detail-id-20677.html HTTP/1.1" 200 None
+2018-09-02 00:35:49,869 -- INFO -- /wx see_movie. words: 碟中谍6 data: 碟中谍6：全面瓦解
+备注：Ts抢先版
+类型：动作片
+主演：汤姆·克鲁斯,亨利·卡维尔,文·瑞姆斯,西蒙·佩吉
+地区/年代：美国/2018
+Ts抢先版：http://xlyy100.com/?m=vod-play-id-20677-src-1-num-1.html
+备用源：
+Ts抢先版：http://xlyy100.com/?m=vod-play-id-20677-src-2-num-1.html return: 碟中谍6：全面瓦解
+备注：Ts抢先版
+类型：动作片
+主演：汤姆·克鲁斯,亨利·卡维尔,文·瑞姆斯,西蒙·佩吉
+地区/年代：美国/2018
+Ts抢先版：http://xlyy100.com/?m=vod-play-id-20677-src-1-num-1.html
+备用源：
+Ts抢先版：http://xlyy100.com/?m=vod-play-id-20677-src-2-num-1.html
+2018-09-02 00:36:23,167 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-09-02 00:36:23,455 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-09-02 00:36:23,456 -- INFO -- /wx turing. words: 视频:碟中谍6 response: 你这是在考我吗？
+2018-09-02 00:36:42,071 -- INFO -- /wx get_movie. words: 碟中谍6 data: [[], [('dzd6', '', 'http://m.ashvsash.com/2018/01/16938/?', 'https://pan.baidu.com/s/1P-_J9a43KWEdTv0IJ_QFgQ', '密码: bs3a')]] return: dzd6  https://pan.baidu.com/s/1P-_J9a43KWEdTv0IJ_QFgQ 密码: bs3a
+
+2018-09-02 13:23:45,457 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-09-02 13:23:45,694 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-09-02 13:23:45,695 -- INFO -- /wx turing. words: 我决定接受楼上俩位的抚养权 response: 谢谢宝宝能同意哦，开心。
+2018-09-02 13:23:57,155 -- INFO -- Fetching access token
+2018-09-02 13:23:57,157 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-02 13:23:57,412 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-02 13:23:57,414 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-02 13:23:57,599 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=91&str1= HTTP/1.1" 200 None
+2018-09-02 13:23:57,602 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-02 13:23:57,828 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_owYNoyqNvCjPxhZCjk29WHF8w0o0nqhqjXfXviKPSQTY8XAf-EaMjmIM9thOesGPtPjIrTaLELOCHjukUziG9KPb-etrEUC6vqmUMC_-0YbaamuQHjiqMC4qka-PIXv70TZDP-YPTXjPxdLLPLCfADAXTK&type=image HTTP/1.1" 200 118
+2018-09-02 13:23:57,829 -- INFO -- /wx get_pic. words:  return: {'type': 'image', 'media_id': 'ngfZtgNCG_ID66KLBXmk1VEcbcmv1IQW5-StHugQea1EnPM3k_SiUFDmTkjnCFB0', 'created_at': 1535865837}
+2018-09-02 13:24:07,863 -- INFO -- Fetching access token
+2018-09-02 13:24:08,170 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-02 13:24:08,171 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-02 13:24:08,631 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=49&str1=%20%E6%88%91%E5%86%B3%E5%AE%9A%E6%8E%A5%E5%8F%97%E6%A5%BC%E4%B8%8A%E4%BF%A9%E4%BD%8D%E7%9A%84%E6%8A%9A%E5%85%BB%E6%9D%83 HTTP/1.1" 200 None
+2018-09-02 13:24:08,635 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-02 13:24:08,889 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_itBTLfB8UkWJ2RTpjk29WHF8w0o0nqhqjXfXviKPSQTY8XAf-EaMjmIM9ti-Aqrm1ek0ln85e50Na78xmK2mvaX_AcRsVJ9Van1vdPntK-KxWIcRMneWKINEQS7gpNjSeDsbPRzKxfJvtw53HBJfADAYSA&type=image HTTP/1.1" 200 118
+2018-09-02 13:24:08,891 -- INFO -- /wx get_pic. words:  我决定接受楼上俩位的抚养权 return: {'type': 'image', 'media_id': 'ZID0aru4KTRVGFKHOTCBO0x0c9UxIyA3iDJuHaoziPITMMlpJWnuHfv70DEGHJh3', 'created_at': 1535865848}
+2018-09-02 13:25:13,300 -- INFO -- Fetching access token
+2018-09-02 13:25:13,301 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-02 13:25:13,505 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-02 13:25:13,507 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-02 13:25:15,718 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=63&str1=%E5%88%98%E5%BA%AD%E9%A1%BA%E6%98%AF%E6%88%91%E5%84%BF%E5%AD%90 HTTP/1.1" 200 None
+2018-09-02 13:25:15,721 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-02 13:25:16,021 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_bw65BCZArXzs9UmfgsrYqcWbxP8kjljjYn0c6zPSRZd7iayTb_KwAC5vZQ9sMwJPn2MnWVnVnjquBdOsG6_skVw4O5CqOL47_SH_krMxBfiX92baKBAN2Gq4xYmeHW7YYJSNYIADdMxkGyndVGJiAHAZKN&type=image HTTP/1.1" 200 118
+2018-09-02 13:25:16,023 -- INFO -- /wx get_pic. words: 刘庭顺是我儿子 return: {'type': 'image', 'media_id': 'nUuhpM82d-LBTQvOoHOVjMMbIaulgjFekADLKZZo3ge7dsyJfoDvV_kw98bJP12a', 'created_at': 1535865915}
+2018-09-02 13:29:33,302 -- DEBUG -- Starting new HTTP connection (1): www.tuling123.com
+2018-09-02 13:29:33,615 -- DEBUG -- http://www.tuling123.com:80 "POST /openapi/api HTTP/1.1" 200 None
+2018-09-02 13:29:33,616 -- INFO -- /wx turing. words: 无所畏惧 response: 果然不一般
+2018-09-02 13:29:52,320 -- INFO -- Fetching access token
+2018-09-02 13:29:52,321 -- DEBUG -- Resetting dropped connection: api.weixin.qq.com
+2018-09-02 13:29:52,555 -- DEBUG -- https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx19a2591b2a719add&secret=c46fa65dbc2803b90431fbf9c803cbd4 HTTP/1.1" 200 194
+2018-09-02 13:29:52,557 -- DEBUG -- Starting new HTTPS connection (1): www.52doutu.cn
+2018-09-02 13:29:52,761 -- DEBUG -- https://www.52doutu.cn:443 "GET /api/?types=maker&id=89&str1=%E6%97%A0%E6%89%80%E7%95%8F%E6%83%A7 HTTP/1.1" 200 None
+2018-09-02 13:29:52,765 -- DEBUG -- Starting new HTTPS connection (1): api.weixin.qq.com
+2018-09-02 13:29:53,035 -- DEBUG -- https://api.weixin.qq.com:443 "POST /cgi-bin/media/upload?access_token=13_XW6iFixBnB-ise7OT5cwMdeOl5Pb6ls3xyypICeuxTrpzdwoFCQ3ZV-OsiDmSUJxLvGM1W-s9NbFcDQTn7u8CsiOsbF0QFqOYcRhm5Q3DewQlKkba9F1GzZ44x4T_rgXoIK7BXawWAN2lPSmYEKhABAJPV&type=image HTTP/1.1" 200 118
+2018-09-02 13:29:53,037 -- INFO -- /wx get_pic. words: 无所畏惧 return: {'type': 'image', 'media_id': 'MkDBIhs61szUu83B6f4-mWXE6mcusFaYhXQMlxon6P57rDTayu3npaCNT-wruy7Q', 'created_at': 1535866193}
+2018-09-04 18:11:19,098 -- INFO -- /wx get_movie. words: 小偷家族 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦
+2018-09-04 18:11:28,619 -- INFO -- /wx get_movie. words: 小偷家族 data: [[], []] return: 竟然没有搜索到！！！
+请检查名称输入的是否正确，请尽量使用中文哦

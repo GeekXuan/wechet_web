@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+# filename: handle.py
+
+import web
+from wechatpy import parse_message
+from wechatpy.utils import check_signature
+from wechatpy.exceptions import InvalidSignatureException
+from wechatpy.replies import TextReply, ImageReply
+from wechatpy.client import WeChatClient
+
+import pics
+from ash_spider_db import search
+from turing import get_response
+from xlzx import get_link
+
+
+class Handle(object):
+    def GET(self):
+        try:
+            data = web.input()
+            if len(data) == 0:
+                return "hello, this is handle view"
+            signature = data.signature
+            timestamp = data.timestamp
+            nonce = data.nonce
+            echostr = data.echostr
+            token = 'snoopytx20180412'
+            try:
+                check_signature(token, signature, timestamp, nonce)
+                return echostr
+            except InvalidSignatureException:
+                print('wrong signature')
+        except Exception as Argument:
+            return Argument
+
+    def POST(self):
+        try:
+            xml = web.data()
+            msg = parse_message(xml)
+            if msg.type == 'text':
+                content = msg.content
+                if content.startswith(('表情包:', '表情包：')):
+                    words = ''.join(content.replace('：', ':').split(':')[1:])
+                    wechat_client = WeChatClient(
+                        appid='wx19a2591b2a719add',
+                        secret='c46fa65dbc2803b90431fbf9c803cbd4',
+                    )
+                    access_token = wechat_client.access_token
+                    json_data = pics.upload_pic(pics.get_random_pic(words), access_token)
+                    # print(json_data)
+                    if 'errcode' not in json_data:
+                        media_id = json_data['media_id']
+                        reply = ImageReply(message=msg)
+                        reply.media_id = media_id
+                    else:
+                        reply = TextReply(message=msg)
+                        reply.content = json_data['link']
+                elif content.startswith(('影视:', '影视：')):
+                    words = ''.join(content.replace('：', ':').split(':')[1:])
+                    if words == '':
+                        string = '没有输入要搜索的名字！'
+                    else:
+                        data = search(words)
+                        data1 = data[0]
+                        data2 = data[1]
+                        if len(data1) != 0:
+                            string = ''
+                            if len(data1) <= 10:
+                                for each in data1:
+                                    string += '%s %s %s %s\n' % (each[0], each[1], each[3], each[4])
+                            else:
+                                for each in data1[:10]:
+                                    string += '%s %s %s %s\n' % (each[0], each[1], each[3], each[4])
+                        elif len(data2) != 0:
+                            string = ''
+                            if len(data2) <= 10:
+                                for each in data2:
+                                    string += '%s %s %s %s\n' % (each[0], each[1], each[3], each[4])
+                            else:
+                                for each in data2[:10]:
+                                    string += '%s %s %s %s\n' % (each[0], each[1], each[3], each[4])
+                        else:
+                            string = '竟然没有搜索到！！！\n请检查名称输入的是否正确，请尽量使用中文哦'
+                    reply = TextReply(message=msg)
+                    reply.content = string
+                elif content.startswith(('在线:', '在线：')):
+                    words = ''.join(content.replace('：', ':').split(':')[1:])
+                    if words == '':
+                        string = '没有输入要搜索的名字！'
+                    else:
+                        data = get_link(words)
+                        if data:
+                            string = data
+                        else:
+                            string = '竟然没有搜索到！！！\n请检查名称输入的是否正确，请试试英文名哦'
+                    reply = TextReply(message=msg)
+                    reply.content = string
+                else:
+                    reply = TextReply(message=msg)
+                    response = get_response(content)
+                    reply.content = response
+            # 转换成 XML
+            reply_xml = reply.render()
+            return reply_xml
+        except:
+            return "success"
+
+
